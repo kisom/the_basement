@@ -13,6 +13,9 @@ config  = {
     'nameline':'4096R/B7B720D6  "Kyle Isom <coder@kyleisom.net>"',
     'datefmt':'%Y-%m-%d',
     'border': { 'left':1, 'right':75 },
+    'basedir':None,
+    'basename':None,
+    'lang':'C',
 }
 
 HEADER_EMPTYLINE = ' *' + ' ' * 72 + '*\n'
@@ -83,6 +86,7 @@ def pop_header(basename, extensions):
             line = raw_input('> ')
         except EOFError:
             break
+        line = line.replace('\t', ' ' * 8)  # tab->whitesp
         line = line[:70]
         descr += ' * %s' % line     # need to use config['border']['left'] here
         lipad  = pad - len(line) - 2
@@ -97,49 +101,67 @@ def pop_header(basename, extensions):
 
 def new_csrc(basename = 'main'):
     ext = [ 'c', 'h' ]
-    headers = pop_header(basename, ext)
+    headers = pop_header(config['basename'], ext)
 
     for e in ext:
         try:
-            f = open('%s%s' % (basename, e), 'w+')
+            f = open('%s.%s' % (basename, e), 'w+')
         except IOError, e:
             print e
             sys.exit(1)
         else:
-            f.write(header)
+            f.write(headers[e])
             f.close()
 
     return True       
 
-def new_src(srctype = 'C', ext_dir = False, basename = None ):
-    if ext_dir: 
-        base_dir = ext_dir
-    else:
-        base_dir = './'
+def new_src( ):
+    if not config['basedir']:
+        config['basedir'] = './'
+    if not config['basename']:
+        config['basename'] = raw_input('source file name: ')
 
-    if not basename:
-        basename = raw_input('source file name: ')
+    if not config['basedir'][-1] == '/':
+        config['basedir'] += '/'
 
-    if not ext_dir[-1] == '/':
-        ext_dir += '/'
+    basename = '%s%s' % (config['basedir'], config['basename'])
 
-    basename = '%s%s' % (ext_dir, basename)
-
-    if 'C' == srctype:
+    if 'C' == config['lang']:
        new_csrc(basename) 
 
     return True
 
+def sel_cmd(command):
+
+    if 'newsrc' == command:
+        new_src( )
+
+    return None
+
 ##### __main__ #####
 
 if '__main__' == __name__:
-    (opts, args) = getopt.getopt(sys.argv[1:], 'h')
-
-    print 'args: '
-    for i in range(len(args)):
-        print '%d: %s' % (i, args[i])
+    (opts, args) = getopt.getopt(sys.argv[1:], 'hda')
+    cmds         = [ 'newsrc', 'project' ]
+    
+    # check to make sure our commands work
+    for cmd in cmds:
+        if cmd == args[0]: break
+    else:
+        print "invalid command!"
+        sys.exit(1)
 
     for opt in opts:
         if 'h' in opt[0]:
             usage()
 
+        if 'd' in opt[0]:
+            config['basedir'] = opt[1]
+    
+        if 'a' in opt[0]:
+            config['nameline'] = opt[1]
+
+    if 2 == len(args):
+        config['basename'] = args[1]
+
+    sel_cmd(args[0])
