@@ -19,8 +19,28 @@
 
 #include "defscan.h"
 
-int main(int argc, char **argv) {
 
+static char **sources = NULL;           /* NULL terminated list of header files
+                                         * containing the defines to check   */
+static char **targets = NULL;           /* NULL-termianted list of source files
+                                         * to scan for occurences of defines */
+
+int main(int argc, char **argv) {
+    sources = calloc(1, sizeof sources);
+    targets = calloc(1, sizeof targets);
+
+    /* need to build the sources list                                       */
+
+    /* scan sources for macros                                              */
+
+    /* build target list                                                    */
+
+    /* scan targets for occurrences of macros                               */
+    /* note that sources may also be targets, but will need to skip         *
+     * #defines!                                                            */
+
+    free(sources);
+    free(targets);
     return EXIT_SUCCESS;
 }
 

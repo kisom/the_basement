@@ -16,3 +16,7 @@
  * defines / constants *
  ***********************/
 
+typedef struct define_set {
+    char *macro;        /* the macro name                           */
+    size_t used;        /* number of times the macro was matched    */
+} defset, *defset_t;
