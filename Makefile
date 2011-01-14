@@ -11,7 +11,7 @@ xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
 
 clean:
-	rm -f *.o a.out ctags etags $(PROGLIST) .*.swp
+	rm -f *.o a.out ctags etags $(PROGLIST) .*.swp *.pyc
 
 install: $(PROGLIST)
 	cp $(PROGLIST) $(PREFIX) 
