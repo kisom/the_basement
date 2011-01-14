@@ -20,9 +20,9 @@
 #include "defscan.h"
 
 
-static char **sources = NULL;           /* NULL terminated list of header files
+static char **sources = NULL;           /* NULL-terminated list of header files
                                          * containing the defines to check   */
-static char **targets = NULL;           /* NULL-termianted list of source files
+static char **targets = NULL;           /* NULL-terminated list of source files
                                          * to scan for occurences of defines */
 
 int main(int argc, char **argv) {
