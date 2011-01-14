@@ -11,10 +11,13 @@ xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
 
 clean:
-	rm -f *.o a.out $(PROGLIST) .*.swp
+	rm -f *.o a.out ctags etags $(PROGLIST) .*.swp
 
 install: $(PROGLIST)
-	cp $(PROGLIST) $(PREFIX)
+	cp $(PROGLIST) $(PREFIX) 
 
 ctags: 
 	ctags *.c *.h >tags
+
+etags:
+	etags *.c *.h >tags

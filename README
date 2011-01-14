@@ -1,3 +1,11 @@
 various bits and pieces of code, all thrown in here to keep them synced
 up if i want to tinker.
 
+xw:         xterm wrapper - execute the command line with xterm -e or an
+            alternative, specifiable via an environment variable or a
+            config file. would take about 30 seconds in shell, but that's
+            no fun.
+defscan:    scan headers for unused #defines.
+cproj:      a tool to work with c projects. it's rad.
+
+
