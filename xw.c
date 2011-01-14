@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
     get_xterm();            /* determine which terminal emulator to use */
     load_env();
     cli = build_args(argv);
-    filename = strip_args();
+    filename = stripargs();
 
     execve( (const char *) filename, cli, env );
     perror("execve");
@@ -57,8 +57,9 @@ void usage(char *bin) {
 void get_xterm( ) {
     char *env_xw        = NULL;     /* pointer to results of getenv() */
     char *confrc_path   = NULL;     /* char buffer holding path to confrc */
-    FILE *confrc         = NULL;    /* file pointer to CONFRC_PATH */
+    FILE *confrc        = NULL;     /* file pointer to CONFRC_PATH */
     size_t readsz       = 0;        /* number of bytes read */
+    size_t i            = 0;        /* loop index */
 
     env_xw = getenv(ENV_VAR_NAME);
 
@@ -79,6 +80,10 @@ void get_xterm( ) {
             if (0 != fclose(confrc)) {
                 perror("fclose");
             }      
+
+            for (i = 0; i < readsz; ++i) {
+                if (0x0a == xterm[i]) { xterm[i] = 0x00; }
+            }
 
             confrc = NULL; 
         }
