@@ -5,6 +5,8 @@ PROGLIST := xw defscan cproj.py
 COMPILED := xw defscan
 PREFIX := ${HOME}/bin
 
+all: $(COMPILED)
+
 defscan: defscan.c
 	$(CC) $(CFLAGS) -o defscan defscan.c
 

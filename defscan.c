@@ -12,6 +12,7 @@
  *                                                                        *
  **************************************************************************/
 
+#include <getopt.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -24,10 +25,14 @@ static char **sources = NULL;           /* NULL-terminated list of header files
                                          * containing the defines to check   */
 static char **targets = NULL;           /* NULL-terminated list of source files
                                          * to scan for occurences of defines */
+static defset_t *dset = NULL;           /* NULL-terminated list of defsets,
+                                         * which contain macros and their use
+                                         * counts.                            */
 
 int main(int argc, char **argv) {
-    sources = calloc(1, sizeof sources);
-    targets = calloc(1, sizeof targets);
+    sources = calloc(MAX_SOURCES, sizeof sources);
+    targets = calloc(MAX_TARGETS, sizeof targets);
+    targets = calloc(MAX_DEFINES, sizeof *dset);
 
     /* need to build the sources list                                       */
 
@@ -41,6 +46,7 @@ int main(int argc, char **argv) {
 
     free(sources);
     free(targets);
+    free(dset);
     return EXIT_SUCCESS;
 }
 

@@ -15,8 +15,18 @@
 /***********************
  * defines / constants *
  ***********************/
+#define         MAX_SOURCES              8
+#define         MAX_TARGETS             32
+#define         MAX_DEFINES             64
+
+
+
+/**********************
+ * structs / typedefs *
+ **********************/
 
 typedef struct define_set {
     char *macro;        /* the macro name                           */
     size_t used;        /* number of times the macro was matched    */
 } defset, *defset_t;
+
