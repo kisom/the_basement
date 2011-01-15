@@ -12,13 +12,21 @@
  *                                                                        *
  **************************************************************************/
 
+#include <stdbool.h>
+
 /***********************
  * defines / constants *
  ***********************/
 #define         MAX_SOURCES              8
 #define         MAX_TARGETS             32
 #define         MAX_DEFINES             64
+#define         LINEBUF_SZ             128
 
+typedef enum filetype {
+    FILE_OTHER  = 0,
+    FILE_CHDR,          /* C header file */
+    FILE_CSRC,          /* C source file */
+} filetype_t;
 
 
 /**********************
@@ -29,4 +37,13 @@ typedef struct define_set {
     char *macro;        /* the macro name                           */
     size_t used;        /* number of times the macro was matched    */
 } defset, *defset_t;
+
+
+
+/***********************
+ * function prototypes *
+ ***********************/
+
+void dirwalk( const char *, char **, size_t *, bool );
+void scanload_macros(const char *header);
 
