@@ -21,6 +21,7 @@
 #define         MAX_TARGETS             32
 #define         MAX_DEFINES             64
 #define         LINEBUF_SZ             128
+#define         CAPTUREVECTORSIZE        9
 
 typedef enum filetype {
     FILE_OTHER  = 0,
@@ -44,6 +45,6 @@ typedef struct define_set {
  * function prototypes *
  ***********************/
 
-void dirwalk( const char *, char **, size_t *, bool );
-void scanload_macros(const char *header);
+void dirwalk( const char *, char **, size_t *, filetype_t );
+int scanload_macros(const char *header);
 

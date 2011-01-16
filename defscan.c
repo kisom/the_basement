@@ -21,6 +21,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <dirent.h>
+#include <pcre.h>
 
 #include "defscan.h"
 
@@ -48,7 +49,7 @@ int main(int argc, char **argv) {
     /* need to build the sources list                                       */
     printf("building source list...\n");
     sz_p = &sources_sz;
-    dirwalk("./", sources, sz_p, true);
+    dirwalk("./", sources, sz_p, FILE_CHDR);
     printf("sources: \n");
     while (i < sources_sz) {
         printf("[+] header: %s\n", sources[i++]);
@@ -77,10 +78,8 @@ filetype_t header_p(char *pathname) {
     /* super effective extension-based file scanning! */
     if (0x2e == pathname[psz - 2]) {
         if (0x68 == pathname[psz - 1]) {
-            printf("header: %s\n", pathname);
             ftype = FILE_CHDR;
         } else if (0x63 == pathname[psz - 1]) {
-            printf("source: %s\n", pathname);
             ftype = FILE_CSRC;
         }
     }
@@ -89,7 +88,7 @@ filetype_t header_p(char *pathname) {
 }
 
 
-void dirwalk(const char *dirpath, char **list, size_t *sz, bool headers_only) {
+void dirwalk(const char *dirpath, char **list, size_t *sz, filetype_t loadt) {
     DIR *dirp               = NULL;         /* pointer to dir stream handle */
     struct dirent *direntp  = NULL;         /* pointer to next dir entry    */
     filetype_t ft           = FILE_OTHER;   /* file type of current file    */
@@ -106,7 +105,8 @@ void dirwalk(const char *dirpath, char **list, size_t *sz, bool headers_only) {
          * the list of source files. We always *
          * load header files...                */
         ft = header_p(direntp->d_name);
-        if (FILE_CHDR == ft || (!headers_only && FILE_CSRC == ft)) {
+        if (((FILE_CHDR == ft) && (loadt & FILE_CHDR)) ||
+            ((FILE_CSRC == ft) && (loadt & FILE_CSRC))) {
             /* if it's a header, copy it in to the list */
             list[*sz] = calloc(strlen(direntp->d_name), sizeof *list);
             strncpy(list[*sz], direntp->d_name, strlen(direntp->d_name));
@@ -135,11 +135,38 @@ void dirwalk(const char *dirpath, char **list, size_t *sz, bool headers_only) {
     return;
 }
 
-void scanload_macros(const char *header) {
-    char macro_re[] = "^[#]define\s+(\w+)\s+.+$";
-    FILE *headerp   = NULL;
-    char line_buf[LINEBUF_SZ] = "";
+int scanload_macros(const char *header) {
+    int result      = EXIT_SUCCESS; 
+    FILE *headerp   = NULL;                             /* file stream ptr   */
+    char line_buf[LINEBUF_SZ] = "";                     /* file read buffer  */
 
+    /* set up prce - it's ugly and we have to do a lot of work */
+    pcre *regex     = NULL;                             /* compiled regex    */
+    char macro_re[] = "^[#]define\\s+(\\w+)\\s+.+$";    /* regex to detect   *
+                                                         * macros            */
+    const char **re_error  = NULL;                      /* pointer to regex  *
+                                                         * error message     */
+    int err_off     = 0;                                /* error offset      */
+    int capvec[CAPTUREVECTORSIZE];                      /* pcre capture vec  */ 
+    
+    /* compile pcre with no options and default locale */
+    regex = pcre_compile(macro_re, 0, re_error, &err_off, NULL);
+    if (NULL == regex) {
+        result = EXIT_FAILURE;
+    } else {
 
+        /* now we can actually begin to code! */
+
+        headerp = fopen(header, "r");
+        if (NULL == headerp) {
+            result = EXIT_FAILURE;
+        } else {
+            while (NULL != fgets(line_buf, LINEBUF_SZ - 1, headerp)) {
+            }
+        }
+    }
+
+    return result;
 
 }
+

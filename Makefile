@@ -8,7 +8,7 @@ PREFIX := ${HOME}/bin
 all: $(COMPILED)
 
 defscan: defscan.c
-	$(CC) $(CFLAGS) -o defscan defscan.c
+	$(CC) $(CFLAGS) -lpcre -o defscan defscan.c
 
 xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
