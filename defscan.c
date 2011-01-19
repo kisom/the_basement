@@ -147,7 +147,7 @@ int scanload_macros(const char *header) {
     const char **re_error  = NULL;                      /* pointer to regex  *
                                                          * error message     */
     int err_off     = 0;                                /* error offset      */
-    int capvec[CAPTUREVECTORSIZE];                      /* pcre capture vec  */ 
+    /*int capvec[CAPTUREVECTORSIZE];                  */    /* pcre capture vec  */ 
     
     /* compile pcre with no options and default locale */
     regex = pcre_compile(macro_re, 0, re_error, &err_off, NULL);

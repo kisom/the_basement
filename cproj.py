@@ -18,12 +18,12 @@ config  = {
     'lang':'C',
 }
 
-HEADER_EMPTYLINE = ' *' + ' ' * 72 + '*\n'
-HEADER_TEMPLATE  = '/' + '*' * 74 + '\n'
-HEADER_TEMPLATE += ' * %s.%s%s*\n'          # basename, extension, padding
-HEADER_TEMPLATE += ' * %s%s*\n'             # author line, padding
-HEADER_TEMPLATE += ' * %s%s*\n'             # date, padding
-HEADER_TEMPLATE += HEADER_EMPTYLINE
+CHEADER_EMPTYLINE = ' *' + ' ' * 72 + '*\n'
+CHEADER_TEMPLATE  = '/' + '*' * 74 + '\n'
+CHEADER_TEMPLATE += ' * %s.%s%s*\n'          # basename, extension, padding
+CHEADER_TEMPLATE += ' * %s%s*\n'             # author line, padding
+CHEADER_TEMPLATE += ' * %s%s*\n'             # date, padding
+CHEADER_TEMPLATE += CHEADER_EMPTYLINE
 # end basic header building
 
 def usage( ):
@@ -50,7 +50,7 @@ def pop_header(basename, extensions):
     pad     = config['border']['right'] - config['border']['left'] - 1
 
     for extension in extensions:
-        header[extension]  = HEADER_TEMPLATE
+        header[extension]  = CHEADER_TEMPLATE
         # build line 1
         filenam = '%s.%s' % (basename, extension)
         basepn  = pad - len(filenam) - 2
@@ -74,7 +74,7 @@ def pop_header(basename, extensions):
 
     for extension in extensions:
         header[extension] += summary
-        header[extension] += HEADER_EMPTYLINE
+        header[extension] += CHEADER_EMPTYLINE
 
     print ' ' + '*' * 74
     print "enter DESCR, empty line ends (long lines will be truncated!): "

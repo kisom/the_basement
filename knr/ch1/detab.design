@@ -1,0 +1,12 @@
+design notes for detab:
+
+1. would it be easier to scan L->R or R->L?
+2. how to handle increased size of set?
+3. use struct string
+4. inserting in
+
+
+
+lookahead: 
+    check to see if 
+
