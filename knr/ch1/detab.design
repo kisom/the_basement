@@ -8,5 +8,6 @@ design notes for detab:
 
 
 lookahead: 
-    check to see if 
+    check to see if the next character matches the current character
+
 
