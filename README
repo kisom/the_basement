@@ -1,6 +1,7 @@
 various bits and pieces of code, all thrown in here to keep them synced
 up if i want to tinker.
 
+sh:         shell scripts. oh god the bourne shell was everywhere...
 xw:         xterm wrapper - execute the command line with xterm -e or an
             alternative, specifiable via an environment variable or a
             config file. would take about 30 seconds in shell, but that's
