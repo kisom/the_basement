@@ -1,0 +1,24 @@
+copy the executables somewhere in your path
+
+make sure you have geoip and pygeoip installed
+
+download the datafile:
+    wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+gunzip the datafile and copy it to wherever your geoip datafiles are, i.e.
+    /usr/share/GeoIP
+
+edit geoip_lu -> change database to point to where you copied the datafile
+
+run the shell script with the path to access.log or error.log as an argument
+
+for best results, redirect the output to a file
+
+if you want, specify a second argument as a blacklist, which is a plaintext
+file with one ip / line, i.e.
+
+<sterling: ~/tmp> $ cat blacklist.dat
+1.2.3.4
+2.3.4.5
+3.4.5.6
+<sterling: ~/tmp> $   
+

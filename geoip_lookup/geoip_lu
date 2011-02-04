@@ -1,0 +1,42 @@
+#!/usr/bin/env python
+
+import getopt
+import pygeoip
+import sys
+
+blacklist = False
+database = '/usr/share/GeoIP/GeoLiteCity.dat'
+
+(opts, args) = getopt.getopt(sys.argv[1:], 'b:')
+
+for opt in opts:
+    if 'b' in opt[0]:
+        blacklist = opt[1]
+
+if blacklist:
+    try:
+        f = open(blacklist)
+    except IOError, e:
+        print e
+        raise
+    else:
+        blacklist = [ ip for ip in f.read().split('\n') if ip ]
+        f.close()
+
+    ip_list = [ ip for ip in args if not ip in blacklist ]
+else:
+    ip_list = args
+
+if not args:
+    print "give me an ip address!"
+    sys.exit(1)
+
+
+geo = pygeoip.GeoIP(database)
+
+for ip in ip_list:
+    if blacklist and ip in blacklist: 
+        print "ignoring %s" % ip
+        continue
+    print ip, geo.record_by_addr(ip)
+
