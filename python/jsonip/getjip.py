@@ -4,7 +4,7 @@ just a quick IP grabber using jsonip.com.
 """
 
 import json
-import urllib2
+from urllib2 import urlopen
 
-print json.loads(urllib2.urlopen('http://www.jsonip.com').read())['ip']
+print json.loads(urlopen('http://www.jsonip.com').read())['ip']
 
