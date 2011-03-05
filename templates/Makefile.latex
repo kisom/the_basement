@@ -1,0 +1,18 @@
+# generic Makefile for LaTeX projects
+GENPDF := pdflatex
+VIEWER := evince
+
+DOCLIST := document1.pdf document2.pdf
+
+all: $(DOCLIST)
+
+view: $(DOCLIST)
+	$(VIEWER) $(DOCLIST)
+
+%.pdf: %.latex
+	$(GENPDF) $<
+
+clean:
+	rm -rf *.aux *.log *.pdf
+
+.PHONY: all view clean
