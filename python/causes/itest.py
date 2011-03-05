@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# interactive test
+# interactive test of levenshtein distance
 
 from lev import lev_dist
 

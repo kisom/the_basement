@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# automated lev dist test
 
 from lev import lev_dist
 
