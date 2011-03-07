@@ -6,7 +6,8 @@ timecard.py:
 
 usage spec:
     tc <project>    clock in or out of project
-    tc --report     basic statistics on time spent
+    tc ?            am i clocked in?
+    tc --time       basic statistics on time spent
     tc --report <week|month|year> 
                     report statistics based on time period
     tc -h           prints usage
