@@ -17,7 +17,6 @@ def get_datetime(timestamp):
     Returns a datetime object from str(datetime.datetime).
     """
 
-
     ctor        = []
     timestamp   = timestamp.split()
     date        = [ int(i) for i in timestamp[0].split('-') ]
@@ -34,7 +33,6 @@ def write_log():
     """
     global project
 
-    now         = datetime.datetime.now()
     f           = get_log(write = True)
 
     if not clocked:
@@ -68,6 +66,7 @@ def get_log(write = False):
         print e
         return False
     except:
+        raise RuntimeError('unknown exception has occurred')
         return False
 
     if not write:
@@ -88,6 +87,7 @@ def print_log():
     else:
         print 'No timecard records found.'
 
+
 def check_state():
     """
     Sets clocked state.
@@ -102,6 +102,7 @@ def check_state():
         clocked = False
     else:
         clocked = not len(log) % 2 == 0
+    assert(not None == clocked)
 
 
 def get_project():
@@ -127,7 +128,6 @@ def clock():
     Clocks the user in and out.
     """
     check_state()
-    assert(not clocked   == None)
     assert(write_log()   == True)
 
 
@@ -135,18 +135,28 @@ def get_last_project():
     """
     Returns the last project worked on.
     """
-    if valid_log():
-        log = get_log()
-        log = log[-1]
-    else:
-        log = None
-
+    log = None
     project = None
+
+    if valid_log():
+        log = get_log()[-1]
 
     if not None == log:
         project = re.search('on project ([\w\s]+) at ', log).group(1)
     
     return project
+
+def get_period(period = 'weekly'):
+    now = datetime.datetime.now()
+
+    week    = now - datetime.timedelta(days = 7)
+    month   = datetime.datetime(now.year, now.month - 1, now.day, now.hour, 
+                                now.minute, now.second, now.microsecond)
+    year    = now - datetime.timedelta(days=365)
+
+    if 'weekly'     == period:      return week
+    if 'monthly'    == period:      return month
+    if 'yearly'     == period:      return year
 
 
 def time_report(project = None, period = None):
@@ -172,26 +182,30 @@ def time_report(project = None, period = None):
         elapsed += (end - start)
 
     print 'Time elapsed:', str(elapsed)
+
+
+def print_status():
+    if get_state():
+        print 'You are clocked in on project %s.' % project
+    else:
+        print 'You are not clocked in.'
            
 
 def main(command = None):
-    if 'clock' == command:
-        clock()
-    elif 'status' == command:
-        if get_state():
-            print 'You are clocked in on project %s.' % project
-        else:
-            print 'You are not clocked in.'
-    elif 'time' == command:
-        time_report(project = project)
-    elif 'log' == command:
-        print_log()
-    elif None == command:
-        clock()
+    if 'clock' == command:      clock()
+    elif 'status' == command:   print_status()
+    elif 'time' == command:     time_report(project = project)
+    elif 'log' == command:      print_log()
+    elif None == command:       clock()
     else:
         print 'invalid command!'
         usage()
     sys.exit(0)
+
+
+def usage():
+    sys.exit(0)
+
 
 
 if __name__ == '__main__':
@@ -223,6 +237,8 @@ if __name__ == '__main__':
 
         if args and not project:
             project = args[-1]
+        else:
+            project = get_last_project()
 
         main(cmd)
 
