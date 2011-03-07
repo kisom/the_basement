@@ -35,7 +35,7 @@ def write_log():
 
     f           = get_log(write = True)
 
-    if clocked:
+    if not clocked:
         state   = 'in'
     else:
         state   = 'out'
@@ -143,6 +143,7 @@ if __name__ == '__main__':
 
         if not opts:
             if '?' in args:
+                project = get_last_project()
                 main('status')
             else:
                 project = args[-1]
