@@ -3,7 +3,7 @@ timecard.py:
 
     i was inspired by a ruby program i saw on hacker news (INSERT REF HERE).
 
-    what does it do better and why rewrite it in python?
+    what does it do better and why rewrite it?
     basically, i wanted the ability to keep track of which project i was
     and the ability to report statistics per-project.
 
@@ -18,5 +18,9 @@ usage spec:
     tc --log        show timecard log
 
 implemented:
-    nothing yet!
+    tc <project>
+    tc ?
+    tc --time <project>
+    tc --log
+
 

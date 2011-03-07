@@ -75,8 +75,18 @@ def get_log(write = False):
     else:
         return f
 
+
 def valid_log():
     return len(get_log()) != 0
+
+
+def print_log():
+    
+    if valid_log():
+        for line in get_log():
+            print line
+    else:
+        print 'No timecard records found.'
 
 def check_state():
     """
@@ -174,6 +184,8 @@ def main(command = None):
             print 'You are not clocked in.'
     elif 'time' == command:
         time_report(project = project)
+    elif 'log' == command:
+        print_log()
     elif None == command:
         clock()
     else:
@@ -184,7 +196,6 @@ def main(command = None):
 
 if __name__ == '__main__':
     
-    # 
     if not len(sys.argv) > 1:
         project = get_last_project()
         main()
