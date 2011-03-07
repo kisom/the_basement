@@ -27,6 +27,7 @@ def get_datetime(timestamp):
     ctor.extend(time)
     return eval('datetime.datetime(%d, %d, %d, %d, %d, %d, %d)' % tuple(ctor))
 
+
 def write_log():
     """
     Logs user as clocking in or out.
@@ -44,6 +45,11 @@ def write_log():
     f.close()
 
     return True
+
+
+def get_time_from_logline(line):
+    time = re.sub('clocked[\\s\\w]+ at ([\\w+\\s+])', '\\1', line)
+    return get_datetime(time)
 
 def get_log(write = False):
     """
@@ -63,6 +69,9 @@ def get_log(write = False):
     else:
         return f
 
+def valid_log():
+    return len(get_log()) != 0
+
 def check_state():
     """
     Sets clocked state.
@@ -73,10 +82,11 @@ def check_state():
     log = get_log()
     assert(not False == log)
 
-    if len(log) == 0:
+    if not valid_log():
         clocked = False
     else:
         clocked = not len(log) % 2 == 0
+
 
 def get_project():
     """
@@ -89,10 +99,12 @@ def get_project():
     if not clocked:
         return None
     
+
 def get_state():
     if None == clocked:
         check_state()
     return clocked
+
 
 def clock():
     """
@@ -102,12 +114,16 @@ def clock():
     assert(not clocked   == None)
     assert(write_log()   == True)
 
+
 def get_last_project():
     """
     Returns the last project worked on.
     """
-    log = get_log()
-    log = log[-1]
+    if valid_log():
+        log = get_log()
+        log = log[-1]
+    else:
+        log = None
 
     project = None
 
@@ -115,6 +131,30 @@ def get_last_project():
         project = re.search('on project ([\w\s]+) at ', log).group(1)
     
     return project
+
+
+def time_report(project = None, period = None):
+    """
+    Prints basic timecard statistics.
+    """
+    log = get_log()
+
+    if project:
+        log = [ line for line in log if not line.find(project) == -1 ]
+
+    elapsed = datetime.timedelta(0, 0, 0)
+    for i in range(0, len(log), 2):
+        start = get_time_from_logline(log[i])
+
+        if i == (len(log) - 1):
+            end = datetime.datetime.now() 
+        else:
+            end = get_time_from_logline(log[i + 1])
+
+        elapsed += (end - start)
+
+    print 'Time elapsed:', str(elapsed)
+           
 
 def main(command = None):
     if 'clock' == command:
@@ -124,12 +164,15 @@ def main(command = None):
             print 'You are clocked in on project %s.' % project
         else:
             print 'You are not clocked in.'
+    elif 'time' == command:
+        time_report(project = project)
     elif None == command:
         clock()
     else:
         print 'invalid command!'
         usage()
     sys.exit(0)
+
 
 if __name__ == '__main__':
     #pdb.set_trace()
@@ -150,12 +193,17 @@ if __name__ == '__main__':
                 main()
 
         for (opt, arg) in opts:
-            if opt == 'log': 
+            if opt == '--log': 
                 cmd = 'log'
-            if opt == 'report':
+            if opt == '--report':
                 cmd = '%s %s' % ('report', arg)
-            if opt == 'h':
+            if opt == '--time':
+                cmd = 'time'
+            if opt == '-h':
                 usage()
 
+        if args and not project:
+            project = args[-1]
 
         main(cmd)
+
