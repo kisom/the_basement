@@ -2,13 +2,16 @@
 CFLAGS := -Wall -Werror -g
 CC=gcc
 PROGLIST := xw defscan cproj.py
-COMPILED := xw defscan
+COMPILED := xw defscan srm
 PREFIX := ${HOME}/bin
 
 all: $(COMPILED)
 
 defscan: defscan.c
 	$(CC) $(CFLAGS) -lpcre -o defscan defscan.c
+
+srm: srm.c
+	$(CC) -Wall -o srm srm.c -lbsd
 
 xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
