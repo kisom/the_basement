@@ -6,9 +6,11 @@
  *                                                                      *
  * securely remove a file                                               *
  ************************************************************************/
+#define _BSD_SOURCE
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <libgen.h>
 #include <limits.h>
 #include <unistd.h>
 
@@ -18,8 +20,18 @@
 
 #define DEV_RANDOM      "/dev/urandom"
 
+int verify_filesize(size_t, char *);
 size_t get_filesize(char *);
 size_t wipe(char *, size_t);
+
+void
+usage(char *argv0)
+{
+    printf("usage: %s <number of passes> filename\n", basename(argv0));
+    printf("\tsrm only works on single files for now.\n");
+
+    return;
+}
 
 int
 main( int argc, char **argv)
@@ -29,12 +41,20 @@ main( int argc, char **argv)
     size_t filesize;            /* the size of the file to be wiped */
     size_t i;                   /* loop counter */
     int passes;                 /* number of passes for wipe */
+    int retval;                 /* return value for the program */
     
     passes = 1;                 /* default is one pass for a wipe */
+    retval = EXIT_FAILURE;
 
     /* if an argument is passed, assume it is the number of passes to
      * wipe the file. test to make sure a valid number was passed in.
      */
+
+    if (1 == argc) {
+        usage(argv[0]);
+        return retval;
+    }
+
     if (3 == argc) {
         int tmp_pass;           /* temporary pass variable */
         tmp_pass = atoi(argv[1]);
@@ -54,7 +74,7 @@ main( int argc, char **argv)
     if (0 == strlcpy(filename, argp, PATH_MAX)) {
         printf("failed to copy target filename into memory!\n");
         free(filename);
-        return EXIT_FAILURE;
+        return retval;
     }
     
     filesize = get_filesize(filename);
@@ -64,15 +84,28 @@ main( int argc, char **argv)
         printf("\tpass: %d\t", (int) i + 1);
         if (EXIT_FAILURE == wipe(filename, filesize)) {
             printf("FAILED\n");
-            return EXIT_FAILURE;
+            return retval;
         } else {
-            printf("OK!\n");
+            if (EXIT_SUCCESS == verify_filesize(filesize, filename)) {
+                printf("OK!\n");
+            } else {
+                printf("FAILED\n");
+            }
         }
+    }
+
+    printf("unlinking %s\n", filename);
+    if (0 ==  unlink(filename)) {
+        printf("successfully wiped %s!\n", filename);
+        retval = EXIT_SUCCESS;
+    } else {
+        fprintf(stderr, "error unlinking %s!\n", filename);
+        perror("unlink");
     }
 
     free(filename);
     filename = NULL;
-    return EXIT_SUCCESS;
+    return retval;
 }
         
 size_t
@@ -89,7 +122,7 @@ get_filesize(char *filep)
 }
 
 int
-verify_filewrite(size_t expected_filesize, char *filep)
+verify_filesize(size_t expected_filesize, char *filep)
 {
     size_t filesize = get_filesize(filep);
 
@@ -149,6 +182,6 @@ wipe(char *filep, size_t write_size)
     }
      
 
-    return EXIT_SUCCESS;
+    return wrsz;
 }
 
