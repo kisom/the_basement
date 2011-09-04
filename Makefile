@@ -1,8 +1,8 @@
 # BASEMENT MAKEFILE
 CFLAGS := -Wall -Werror -g
 CC=gcc
-PROGLIST := xw defscan cproj.py
-COMPILED := xw defscan srm
+COMPILED := xw defscan srm srm2
+PROGLIST := cproj.py $(COMPILED)
 PREFIX := ${HOME}/bin
 
 all: $(COMPILED)
@@ -13,11 +13,17 @@ defscan: defscan.c
 srm: srm.c
 	$(CC) -Wall -o srm srm.c -lbsd
 
+srm2: srm2.c
+	$(CC) -Wall -g -o srm2 srm2.c -lbsd
+	cp os wipe1
+	cp os wipe2
+	cp os wipe3
+
 xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
 
 clean:
-	rm -f *.o a.out ctags etags $(COMPILED) .*.swp *.pyc
+	rm -f *.o a.out ctags etags $(COMPILED) .*.swp *.pyc wipe?
 
 install: $(PROGLIST)
 	cp $(PROGLIST) $(PREFIX) 
