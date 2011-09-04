@@ -1,5 +1,5 @@
 # BASEMENT MAKEFILE
-CFLAGS := -Wall -Werror -g
+CFLAGS := -Wall -Werror 
 CC=gcc
 COMPILED := xw defscan srm
 PROGLIST := cproj.py $(COMPILED)
@@ -11,7 +11,7 @@ defscan: defscan.c
 	$(CC) $(CFLAGS) -lpcre -o defscan defscan.c
 
 srm: srm.c
-	$(CC) -Wall -o srm srm.c -lbsd
+	$(CC) $(CFLAGS) -o srm srm.c -lbsd
 
 xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
@@ -25,10 +25,15 @@ install: $(PROGLIST)
 uninstall: 
 	for p in ${PROGLIST}; do rm -f $(PREFIX)/$$p; done
 
+wipetarget:
+	cp os wipe1
+	cp os wipe2
+	cp os wipe3
+
 ctags: 
 	ctags *.c *.h >tags
 
 etags:
 	etags *.c *.h >tags
 
-.PHONY: clean install uninstall ctags etags
+.PHONY: clean install uninstall ctags etags wipetarget
