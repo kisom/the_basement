@@ -25,7 +25,6 @@
 
 int do_wipe(char *, size_t);
 int wipe(char *);
-size_t get_size(char *);
 
 void 
 usage(char *argv0)
@@ -119,11 +118,16 @@ main( int argc, char **argv )
 int
 do_wipe(char *filename, size_t passes)
 {
+    struct stat sb;
     size_t filesize, i;
     int retval;
 
-    filesize = get_size(filename);
     retval = EXIT_FAILURE;
+    if (-1 == stat(filename, &sb)) {
+        fprintf(stderr, "error opening file!");
+        return retval;
+    }
+    filesize = sb.st_size;
 
     for( i = 0; i < passes; ++i ) {
         printf(".");
@@ -144,18 +148,6 @@ do_wipe(char *filename, size_t passes)
     }
 
     return retval;
-}
-
-size_t
-get_size(char *filename)
-{
-    struct stat sb;
-
-    if ( -1 == stat(filename, &sb)) {
-        return 0;
-    } else {
-        return sb.st_size;
-    }
 }
 
 int
