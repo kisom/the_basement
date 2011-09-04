@@ -15,6 +15,7 @@
 #include <unistd.h>
 
 #include <sys/stat.h>
+#include <sys/types.h>
 
 #include <string.h>
 
@@ -59,8 +60,12 @@ main( int argc, char **argv )
         return retval;
     }
 
-    while( -1 != (opt = getopt(argc, argv, "n:v"))) {
+    while( -1 != (opt = getopt(argc, argv, "hn:v"))) {
         switch( opt ) {
+            case 'h':
+                usage(argv[0]);
+                return retval;
+                break;              /* don't technically need it but meh */
             case 'n':
                 tmp_passes = atoi(optarg);
                 passes = tmp_passes > 0 ? tmp_passes : passes;
@@ -69,7 +74,6 @@ main( int argc, char **argv )
                 verbose = 1;
                 break;
             default:
-                fprintf(stderr, "invalid option!\n");
                 return retval;
         }
     }
@@ -86,15 +90,31 @@ main( int argc, char **argv )
         if (EXIT_FAILURE == do_wipe(*file_ptr, passes)) {
             wipe_fail[failed] = strdup(*file_ptr);
             failed++;
-            
-            fprintf(stderr, "\n\t[!] failed to wipe %s\n", *file_ptr);
         } else {
             wipe_success[wiped] = strdup(*file_ptr);
             wiped++;
-
-            printf("OK!\n");
+            printf(" OK!");
         }
         file_ptr++;
+        printf("\n");
+    }
+
+    if (1 == verbose) {
+        if (0 < wiped) {
+            printf("success: ");
+            for( i = 0; i < wiped; ++i ) {
+                printf("%s ", wipe_success[i]);
+            }
+            printf("\n");
+        }
+
+        if (0 < failed) {
+            printf("failures: ");
+            for( i = 0; i < failed; ++i ) {
+                printf("%s ", wipe_fail[i]);
+            }
+            printf("\n");
+        }
     }
 
     /* free allocated memory */
@@ -130,29 +150,112 @@ do_wipe(char *filename, size_t passes)
     filesize = sb.st_size;
 
     for( i = 0; i < passes; ++i ) {
-        printf(".");
-        fflush(stdout);
         if (EXIT_FAILURE == wipe(filename)) {
             printf("!");
             return retval;
-        } else if (filesize != get_size(filename)) {
+        } else if (-1 == stat(filename, &sb)) {
+            printf("!");
+            return retval;
+        } else if (filesize != sb.st_size) {
             printf("!");
             return retval;
         }
+        printf(".");
+        fflush(stdout);
     }
-
+/*
     if (-1 == unlink(filename)) {
         fprintf(stderr, "unlink error!");
     } else {
         retval = EXIT_SUCCESS;
     }
-
+*/
     return retval;
 }
 
 int
 wipe(char *filename)
 {
-    return 0;
+    struct stat sb;
+
+    size_t chunk;
+    size_t filesize;
+    size_t rdsz;
+    size_t wiped;
+    size_t wrsz;
+
+    FILE *devrandom;
+    FILE *target;
+
+    int retval;
+    int targetfd;
+
+    char *rdata;
+
+    retval = EXIT_FAILURE;
+    wiped  = 0;
+
+    if (-1 == stat(filename, &sb)) {
+        return retval;
+    }
+
+    filesize = sb.st_size;
+
+    /* 
+     * open devrandom first: if this fails, we don't want to touch the target
+     * file. 
+     */
+    devrandom = fopen(DEV_RANDOM, "r");
+    if (NULL == devrandom) {
+        printf("failed to open PRNG %s!", DEV_RANDOM);
+        return retval;
+    } else if (-1 == ferror(devrandom)) {
+        printf("error opening %s!", DEV_RANDOM);
+        return retval;
+    }
+
+    target   = fopen(DEV_RANDOM, "w");
+    if (NULL == target) {
+        fprintf(stderr, "failed to open file");
+        fclose(devrandom);
+        return retval;
+    } else if (-1 == ferror(target)) {
+        fprintf(stderr, "error opening file!");
+        fclose(devrandom);
+        return retval;
+    }
+
+    targetfd = fileno(target);
+
+    /* wait to calloc until we really need the data - makes cleaning up less
+     * tricky.
+     */
+    rdata = calloc(MAX_CHUNK, sizeof(char));
+    while( wiped < filesize ) {
+        chunk = filesize - wiped;
+        chunk = chunk > MAX_CHUNK ? MAX_CHUNK : chunk;
+
+        rdsz  =  fread( rdata, sizeof(char), chunk, devrandom );
+        wrsz  = fwrite( rdata, sizeof(char), chunk, target );
+
+        if ( -1 == stat(filename, &sb)) {
+            fprintf(stderr, " stat() error !");
+            break;
+        }
+        if ( (rdsz != wrsz) || (filesize != sb.st_size) ) {
+            fprintf(stderr, "invalid read/write size");
+            break;
+        }
+
+        wiped += chunk;
+    }
+    
+    
+    fclose(devrandom);
+    fclose(target);
+    free(rdata);
+    rdata = NULL;
+
+    return retval;
 }
 
