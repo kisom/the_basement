@@ -5,6 +5,8 @@
  * date: 2011-08-03                                                     *
  *                                                                      *
  * securely remove a file                                               *
+ *                                                                      *
+ * TODO: add recursive removal for securely removing a directory        *
  ************************************************************************/
 #define _BSD_SOURCE
 
