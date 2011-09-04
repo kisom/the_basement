@@ -14,6 +14,7 @@
 #include <limits.h>
 #include <unistd.h>
 
+#include <sys/file.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 
@@ -226,6 +227,11 @@ wipe(char *filename)
     }
     rewind(target);
     targetfd = fileno(target);
+    if (-1 == flock(targetfd, LOCK_EX)) {
+        fprintf(stderr, "error locking file");
+        fclose(devrandom);
+        fclose(target);
+    }
 
     /* wait to calloc until we really need the data - makes cleaning up less
      * tricky.
@@ -255,12 +261,18 @@ wipe(char *filename)
         wiped += chunk;
     }
     
-    
+    /* release lock */
+    if (-1 == flock(targetfd, LOCK_UN)) {
+        fprintf(stderr, "error releasing lock");
+    }
+
+    /* for cleanup, report close errors and free mem */
     if ( (0 != fclose(devrandom)) || (0 != fclose(target)) ) {
         fprintf(stderr, "error closing file");
     } else {
         retval = EXIT_SUCCESS;
     }
+
     free(rdata);
     rdata = NULL;
 
