@@ -1,11 +1,14 @@
 /************************************************************************
  * srm.c                                                                *
  * author: kyle isom <coder@kyleisom.net>                               *
- * license: openbsd / public domain dual-licensed                       *
+ * license: isc / public domain dual-licensed                           *
  * date: 2011-08-03                                                     *
  *                                                                      *
  * securely remove a file                                               *
  * powered by radiohead - ok computer                                   *
+ *                                                                      *
+ * i was bored and needed a secure file removal tool                    *
+ * ergo, i rolled my own                                                *
  *                                                                      *
  * TODO: add recursive removal for securely removing a directory        *
  ************************************************************************/
