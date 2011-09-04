@@ -5,20 +5,22 @@
  * date: 2011-08-03                                                     *
  *                                                                      *
  * securely remove a file                                               *
+ * powered by radiohead - ok computer                                   *
  *                                                                      *
  * TODO: add recursive removal for securely removing a directory        *
  ************************************************************************/
 #define _BSD_SOURCE
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <libgen.h>
-#include <limits.h>
-#include <unistd.h>
-
+#include <sys/cdefs.h>
 #include <sys/file.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+
+#include <libgen.h>
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 #include <string.h>
 
@@ -26,24 +28,19 @@
 #define DEV_RANDOM      "/dev/urandom"
 #define MAX_CHUNK       4096
 
+/* prototypes */
+static int         do_wipe(char *, size_t);
+static int         wipe(char *);
+#ifdef OPENBSD
+__dead void usage(void);
+#else
+static void        usage(void);
+#endif
 
-int do_wipe(char *, size_t);
-int wipe(char *);
-
-void 
-usage(char *argv0)
-{
-    printf("usage: %s [options] file list\n", basename(argv0));
-    printf("\noptions:\n");
-    printf("\t-n <number of passes>: specify number of passes\n");
-    printf("\t\t(default is %d passes)\n", DEFAULT_PASSES);
-    printf("\t-v: verbose mode. display list of failures and wiped files ");
-    printf("after wiping\n");
-
-    printf("\n");
-    return;
-}
-
+/*
+ * secure rm: overwrite a file with one or more passes of random data,
+ * then unlink it.
+ */
 int 
 main( int argc, char **argv )
 {
@@ -58,30 +55,31 @@ main( int argc, char **argv )
     failed  = 0;
     verbose = 0;
 
-    if (argc == 1) {
-        usage(argv[0]);
-        return retval;
-    }
+    if (argc == 1)
+        usage();
 
-    while( -1 != (opt = getopt(argc, argv, "hn:v"))) {
+    while (-1 != (opt = getopt(argc, argv, "hn:v"))) {
         switch( opt ) {
-            case 'h':
-                usage(argv[0]);
-                return retval;
-                break;              /* don't technically need it but meh */
-            case 'n':
-                tmp_passes = atoi(optarg);
-                passes = tmp_passes > 0 ? tmp_passes : passes;
-                break;
-            case 'v':
-                verbose = 1;
-                break;
-            default:
-                return retval;
+        case 'h':
+            usage();
+            break;              /* don't technically need it but meh */
+        case 'n':
+            tmp_passes = atoi(optarg);
+            passes = tmp_passes > 0 ? tmp_passes : passes;
+            break;
+        case 'v':
+            verbose = 1;
+            break;
+        default:
+            usage();
+            /* NOTREACHED */
         }
     }
 
-    file_ptr = &argv[optind];
+    argc -= optind;
+    argv += optind;
+
+    file_ptr = argv;
     wipe_success = calloc(argc, sizeof(char *));
     wipe_fail    = calloc(argc, sizeof(char *));
     
@@ -121,14 +119,14 @@ main( int argc, char **argv )
     }
 
     /* free allocated memory */
-    for( i = 0; i < failed; ++i ) {
+    for (i = 0; i < failed; ++i) {
         free(wipe_fail[i]);
         wipe_fail[i] = NULL;
     }
     free(wipe_fail);
     wipe_fail = NULL;
 
-    for( i = 0; i < wiped; ++i ) {
+    for (i = 0; i < wiped; ++i) {
         free(wipe_success[i]);
         wipe_success[i] = NULL;
     }
@@ -138,6 +136,11 @@ main( int argc, char **argv )
     return retval;
 }
 
+/*
+ * int do_wipe(char *, size_t)
+ *  takes a filename and the number of passes to wipe the file
+ *  returns EXIT_SUCCESS || EXIT_FAILURE
+ */
 int
 do_wipe(char *filename, size_t passes)
 {
@@ -152,7 +155,7 @@ do_wipe(char *filename, size_t passes)
     }
     filesize = sb.st_size;
 
-    for( i = 0; i < passes; ++i ) {
+    for (i = 0; i < passes; ++i) {
         if (EXIT_FAILURE == wipe(filename)) {
             printf("!");
             return retval;
@@ -176,6 +179,11 @@ do_wipe(char *filename, size_t passes)
     return retval;
 }
 
+/*
+ * int wipe(char *)
+ *  takes a filename and attempts to overwrite it with random data
+ *  returns EXIT_SUCCESS || EXIT_FAILURE
+ */
 int
 wipe(char *filename)
 {
@@ -198,9 +206,8 @@ wipe(char *filename)
     retval = EXIT_FAILURE;
     wiped  = 0;
 
-    if (-1 == stat(filename, &sb)) {
+    if (-1 == stat(filename, &sb))
         return retval;
-    }
 
     filesize = sb.st_size;
 
@@ -244,18 +251,18 @@ wipe(char *filename)
         return retval;
     }
 
-    while( wiped < filesize) {
+    while (wiped < filesize) {
         chunk = filesize - wiped;
         chunk = chunk > MAX_CHUNK ? MAX_CHUNK : chunk;
 
         rdsz  =  fread( rdata, sizeof(char), chunk, devrandom );
         wrsz  = fwrite( rdata, sizeof(char), chunk, target );
 
-        if ( -1 == stat(filename, &sb)) {
+        if (-1 == stat(filename, &sb)) {
             fprintf(stderr, " stat() error !");
             break;
         }
-        if ( (rdsz != wrsz) || (filesize != (unsigned int) sb.st_size) ) {
+        if ((rdsz != wrsz) || (filesize != (unsigned int)sb.st_size)) {
             fprintf(stderr, "invalid read/write size");
             break;
         }
@@ -264,20 +271,38 @@ wipe(char *filename)
     }
     
     /* release lock */
-    if (-1 == flock(targetfd, LOCK_UN)) {
+    if (-1 == flock(targetfd, LOCK_UN))
         fprintf(stderr, "error releasing lock");
-    }
 
     /* for cleanup, report close errors and free mem */
-    if ( (0 != fclose(devrandom)) || (0 != fclose(target)) ) {
+    if ((0 != fclose(devrandom)) || (0 != fclose(target)))
         fprintf(stderr, "error closing file");
-    } else {
+    else
         retval = EXIT_SUCCESS;
-    }
 
     free(rdata);
     rdata = NULL;
 
     return retval;
 }
+
+/*
+ * usage: print a quick usage message 
+ */
+void 
+usage(void)
+{
+    extern char *__progname;
+
+    printf("usage: %s [-v] [-n number] file list\n", __progname);
+    printf("\noptions:\n");
+    printf("\t-v: verbose mode. display list of failures and wiped files ");
+    printf("after wiping\n");
+    printf("\t-n <number of passes>: specify number of passes\n");
+    printf("\t\t(default is %d passes)\n", DEFAULT_PASSES);
+
+    printf("\n");
+    exit(EXIT_FAILURE);
+}
+
 
