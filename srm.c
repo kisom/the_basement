@@ -18,170 +18,149 @@
 
 #include <string.h>
 
+#define DEFAULT_PASSES  3
 #define DEV_RANDOM      "/dev/urandom"
+#define MAX_CHUNK       4096
 
-int verify_filesize(size_t, char *);
-size_t get_filesize(char *);
-size_t wipe(char *, size_t);
 
-void
+int do_wipe(char *, size_t);
+int wipe(char *);
+size_t get_size(char *);
+
+void 
 usage(char *argv0)
 {
-    printf("usage: %s <number of passes> filename\n", basename(argv0));
-    printf("\tsrm only works on single files for now.\n");
+    printf("usage: %s [options] file list\n", basename(argv0));
+    printf("\noptions:\n");
+    printf("\t-n <number of passes>: specify number of passes\n");
+    printf("\t\t(default is %d passes)\n", DEFAULT_PASSES);
+    printf("\t-v: verbose mode. display list of failures and wiped files ");
+    printf("after wiping\n");
 
+    printf("\n");
     return;
 }
 
-int
-main( int argc, char **argv)
+int 
+main( int argc, char **argv )
 {
-    char *argp;
-    char *filename;             /* the file target to be wiped */
-    size_t filesize;            /* the size of the file to be wiped */
-    size_t i;                   /* loop counter */
-    int passes;                 /* number of passes for wipe */
-    int retval;                 /* return value for the program */
-    
-    passes = 1;                 /* default is one pass for a wipe */
-    retval = EXIT_FAILURE;
+    size_t passes, tmp_passes, wiped, failed, i;
+    char **wipe_success, **wipe_fail;
+    char **file_ptr;
+    int retval, opt, verbose;
 
-    /* if an argument is passed, assume it is the number of passes to
-     * wipe the file. test to make sure a valid number was passed in.
-     */
+    passes  = DEFAULT_PASSES;
+    retval  = EXIT_FAILURE;
+    wiped   = 0;
+    failed  = 0;
+    verbose = 0;
 
-    if (1 == argc) {
+    if (argc == 1) {
         usage(argv[0]);
         return retval;
     }
 
-    if (3 == argc) {
-        int tmp_pass;           /* temporary pass variable */
-        tmp_pass = atoi(argv[1]);
-
-        if (0 != tmp_pass) {
-            passes = tmp_pass;
+    while( -1 != (opt = getopt(argc, argv, "n:v"))) {
+        switch( opt ) {
+            case 'n':
+                tmp_passes = atoi(optarg);
+                passes = tmp_passes > 0 ? tmp_passes : passes;
+                break;
+            case 'v':
+                verbose = 1;
+                break;
+            default:
+                fprintf(stderr, "invalid option!\n");
+                return retval;
         }
     }
 
-    filename = calloc(PATH_MAX + 1, sizeof(char));
-    if (2 == argc) {
-        argp = argv[1];
-    } else if (3 == argc) {
-        argp = argv[2];
-    }
-
-    if (0 == strlcpy(filename, argp, PATH_MAX)) {
-        printf("failed to copy target filename into memory!\n");
-        free(filename);
-        return retval;
-    }
+    file_ptr = &argv[optind];
+    wipe_success = calloc(argc, sizeof(char *));
+    wipe_fail    = calloc(argc, sizeof(char *));
     
-    filesize = get_filesize(filename);
-    printf("wiping %s\n", filename);
 
-    for (i = 0; i < passes; i++) {
-        printf("\tpass: %d\t", (int) i + 1);
-        if (EXIT_FAILURE == wipe(filename, filesize)) {
-            printf("FAILED\n");
-            return retval;
+    while (NULL != *file_ptr) {
+        printf("%s: ", *file_ptr);
+        fflush(stdout);
+
+        if (EXIT_FAILURE == do_wipe(*file_ptr, passes)) {
+            wipe_fail[failed] = strdup(*file_ptr);
+            failed++;
+            
+            fprintf(stderr, "\n\t[!] failed to wipe %s\n", *file_ptr);
         } else {
-            if (EXIT_SUCCESS == verify_filesize(filesize, filename)) {
-                printf("OK!\n");
-            } else {
-                printf("FAILED\n");
-            }
+            wipe_success[wiped] = strdup(*file_ptr);
+            wiped++;
+
+            printf("OK!\n");
         }
+        file_ptr++;
     }
 
-    printf("unlinking %s\n", filename);
-    if (0 ==  unlink(filename)) {
-        printf("successfully wiped %s!\n", filename);
-        retval = EXIT_SUCCESS;
-    } else {
-        fprintf(stderr, "error unlinking %s!\n", filename);
-        perror("unlink");
+    /* free allocated memory */
+    for( i = 0; i < failed; ++i ) {
+        free(wipe_fail[i]);
+        wipe_fail[i] = NULL;
     }
+    free(wipe_fail);
+    wipe_fail = NULL;
 
-    free(filename);
-    filename = NULL;
+    for( i = 0; i < wiped; ++i ) {
+        free(wipe_success[i]);
+        wipe_success[i] = NULL;
+    }
+    free(wipe_success);
+    wipe_success = NULL;
+
     return retval;
-}
-        
-size_t
-get_filesize(char *filep)
-{
-    struct stat statbuf;
-
-    if (-1 == stat(filep, &statbuf)) {
-        perror("stat");
-        return EXIT_FAILURE;
-    }
-
-    return statbuf.st_size;
 }
 
 int
-verify_filesize(size_t expected_filesize, char *filep)
+do_wipe(char *filename, size_t passes)
 {
-    size_t filesize = get_filesize(filep);
+    size_t filesize, i;
+    int retval;
 
-    return expected_filesize == filesize ? EXIT_SUCCESS : EXIT_FAILURE;
+    filesize = get_size(filename);
+    retval = EXIT_FAILURE;
+
+    for( i = 0; i < passes; ++i ) {
+        printf(".");
+        fflush(stdout);
+        if (EXIT_FAILURE == wipe(filename)) {
+            printf("!");
+            return retval;
+        } else if (filesize != get_size(filename)) {
+            printf("!");
+            return retval;
+        }
+    }
+
+    if (-1 == unlink(filename)) {
+        fprintf(stderr, "unlink error!");
+    } else {
+        retval = EXIT_SUCCESS;
+    }
+
+    return retval;
 }
 
 size_t
-wipe(char *filep, size_t write_size)
+get_size(char *filename)
 {
-    size_t rdsz;                /* number of bytes read from DEV_RANDOM */
-    size_t wrsz;                /* number of bytes written to target */
-    char *random_data;          /* random data to write to the file */
-    FILE *target;               /* file to be wiped */
-    FILE *devrandom;            /* PRNG file */
+    struct stat sb;
 
-    devrandom = fopen(DEV_RANDOM, "r");
-    if (NULL == devrandom) {
-        fprintf(stderr, "%s is an invalid PRNG\n", DEV_RANDOM);
-        return EXIT_FAILURE;
-    } else if (0 != ferror(devrandom)) {
-        fprintf(stderr, "error opening %s!\n", DEV_RANDOM);
-        return EXIT_FAILURE;
+    if ( -1 == stat(filename, &sb)) {
+        return 0;
+    } else {
+        return sb.st_size;
     }
+}
 
-    /* read random data from DEV_RANDOM */
-    random_data = calloc(write_size, sizeof(char));
-    rdsz = fread(random_data, sizeof(char), write_size, devrandom);
-    fclose(devrandom);
-
-    if (rdsz != write_size) {
-        fprintf(stderr, "did not read the expected number of bytes from %s!\n",
-                DEV_RANDOM);
-        return EXIT_FAILURE;
-    }
-
-    /* open target for write and check for errors */
-    target = fopen(filep, "w");
-    if (NULL == target) {
-        fprintf(stderr, "%s does not exist!\n", filep);
-        fclose(devrandom);
-        return EXIT_FAILURE;
-    } else if (0 != ferror(target)) {
-        fprintf(stderr, "error opening %s\n", filep);
-        fclose(devrandom);
-        return EXIT_FAILURE;
-    }
-
-    wrsz = fwrite(random_data, sizeof(char), write_size, target);
-    fclose(target);
-    free(random_data);
-    random_data = NULL;
-
-    if (wrsz != write_size) {
-        fprintf(stderr, "failed writing the expected number of bytes to %s!\n",
-                filep);
-        return EXIT_FAILURE;
-    }
-     
-
-    return wrsz;
+int
+wipe(char *filename)
+{
+    return 0;
 }
 
