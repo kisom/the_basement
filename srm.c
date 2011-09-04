@@ -163,13 +163,13 @@ do_wipe(char *filename, size_t passes)
         printf(".");
         fflush(stdout);
     }
-/*
+
     if (-1 == unlink(filename)) {
         fprintf(stderr, "unlink error!");
     } else {
         retval = EXIT_SUCCESS;
     }
-*/
+
     return retval;
 }
 
@@ -214,7 +214,7 @@ wipe(char *filename)
         return retval;
     }
 
-    target   = fopen(DEV_RANDOM, "w");
+    target   = fopen(filename, "r+");
     if (NULL == target) {
         fprintf(stderr, "failed to open file");
         fclose(devrandom);
@@ -224,14 +224,19 @@ wipe(char *filename)
         fclose(devrandom);
         return retval;
     }
-
+    rewind(target);
     targetfd = fileno(target);
 
     /* wait to calloc until we really need the data - makes cleaning up less
      * tricky.
      */
     rdata = calloc(MAX_CHUNK, sizeof(char));
-    while( wiped < filesize ) {
+    if (NULL == rdata) {
+        fprintf(stderr, "could not allocate random data memory");
+        return retval;
+    }
+
+    while( wiped < filesize) {
         chunk = filesize - wiped;
         chunk = chunk > MAX_CHUNK ? MAX_CHUNK : chunk;
 
@@ -242,7 +247,7 @@ wipe(char *filename)
             fprintf(stderr, " stat() error !");
             break;
         }
-        if ( (rdsz != wrsz) || (filesize != sb.st_size) ) {
+        if ( (rdsz != wrsz) || (filesize != (unsigned int) sb.st_size) ) {
             fprintf(stderr, "invalid read/write size");
             break;
         }
@@ -251,8 +256,11 @@ wipe(char *filename)
     }
     
     
-    fclose(devrandom);
-    fclose(target);
+    if ( (0 != fclose(devrandom)) || (0 != fclose(target)) ) {
+        fprintf(stderr, "error closing file");
+    } else {
+        retval = EXIT_SUCCESS;
+    }
     free(rdata);
     rdata = NULL;
 
