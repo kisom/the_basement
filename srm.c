@@ -1,7 +1,7 @@
 /************************************************************************
  * srm.c                                                                *
  * author: kyle isom <coder@kyleisom.net>                               *
- * license: isc / public domain dual-licensed                           *
+ * license: openbsd / public domain dual-licensed                       *
  * date: 2011-08-03                                                     *
  *                                                                      *
  * securely remove a file                                               *
