@@ -208,18 +208,9 @@ wipe(char *filename)
 {
     struct stat sb;
 
-    size_t chunk;
-    size_t filesize;
-    size_t rdsz;
-    size_t wiped;
-    size_t wrsz;
-
-    FILE *devrandom;
-    FILE *target;
-
-    int retval;
-    int targetfd;
-
+    size_t chunk, filesize, rdsz, wiped, wrsz;
+    FILE *devrandom, *target;
+    int retval, targetfd;
     char *rdata;
 
     retval = EXIT_FAILURE;
@@ -243,6 +234,12 @@ wipe(char *filename)
         return retval;
     }
 
+    /*
+     * for security purposes, we want to make sure to actually overwrite the
+     * the file. r+ gives us read/write but more importantly, sets the write
+     * stream at the beginning of the file. a side note is that when overwriting
+     * a file, it's size will never seem to change.
+     */
     target   = fopen(filename, "r+");
     if (NULL == target) {
         fprintf(stderr, "failed to open file");
@@ -267,6 +264,8 @@ wipe(char *filename)
     rdata = calloc(MAX_CHUNK, sizeof(char));
     if (NULL == rdata) {
         fprintf(stderr, "could not allocate random data memory");
+
+        /* where's my cleanup code? */
         return retval;
     }
 
