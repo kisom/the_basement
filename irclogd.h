@@ -38,10 +38,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#define     DEFAULT_CONFIG                  .irclogdrc
+/* sane defaults for the config struct */
+#define     DEFAULT_CONFIG                  ".irclogdrc"
 #define     DEFAULT_PORT                    6667
 #define     DEFAULT_SNAME                   example
 #define     DEFAULT_MYHOST                  example.net
+
+/* other configuration options that should be hardcoded in */
+#define     MAX_CONFIG_FILE_SIZE            1024
 
 struct irc_config {
     char *server;
@@ -54,13 +58,13 @@ struct irc_config {
     char *sname;
 };
 
-void usage(void);
-int init_config(void);
-void destroy_config(void);
-int verify_config(void);
-int load_configfile(char *);
-size_t find_colon(char *);
-char *get_simple_option(char *);
-char *strip_whitespace(char *);
-
+void     usage(void);
+int      init_config(void);
+void     destroy_config(void);
+int      verify_config(void);
+int      load_configfile(char *);
+size_t   find_colon(char *);
+char    *get_simple_option(char *);
+char    *strip_whitespace(char *);
+char    *readline(char *);
 
