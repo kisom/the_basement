@@ -73,3 +73,14 @@ usage( )
     fprintf(stderr, "usage: %s [-f configfile]\n", __progname);
     exit(EXIT_FAILURE);
 }
+
+int
+load_config(char *configfile)
+{
+    int retval;
+
+    retval = EXIT_FAILURE;
+
+    return retval;
+}
+
