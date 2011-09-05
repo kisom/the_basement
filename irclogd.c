@@ -34,8 +34,11 @@
  * with the software. if public domain affords you more freedom, use it.    *
  ****************************************************************************/
 
+#include <sys/cdefs.h>
+
 #include <daemon.h>         /* libdaemon: http://github.com/kisom/libdaemon */
 #include <err.h>
+#include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -48,12 +51,17 @@ static struct irc_config cfg;
 int
 main(int argc, char **argv)
 {
+    char *cfg_filename;
     int opt, retval;
 
     retval = EXIT_FAILURE;
+    cfg_filename = NULL;
 
     while (-1 != (opt = getopt(argc, argv, "hf:"))) {
         switch(opt) {
+        case 'f':
+            cfg_filename = strdup(optarg);
+            break;
         case 'h':
             usage();
             break;
@@ -66,10 +74,21 @@ main(int argc, char **argv)
     argc -= optind;
     argv += optind;
 
+    if (NULL == cfg_filename)
+        cfg_filename = strdup(DEFAULT_CONFIG);
+
+    /* do initial setup before beginning the irclogger */
     if (EXIT_FAILURE == init_config())
         return retval;
 
+    if ((EXIT_SUCCESS == load_configfile(cfg_filename)) && 
+        (EXIT_SUCCESS == verify_config()))
+        ; /* here is the proper place to enter the irc logger function */
+
+    /* tear down and prepare for a clean exit */
     destroy_config();
+    free(cfg_filename);
+    cfg_filename = NULL;
     return retval;
 }
 
@@ -175,29 +194,50 @@ verify_config()
     return invalid_chans == 0 ? retval : EXIT_FAILURE;
 }
 
+/* load_configfile loads the irc_config buffer with options from a config file
+ * specified in filename.
+ */
 int
 load_configfile(char *filename)
 {
+    size_t i, newline, rdsz;
     FILE *configfile;
-    char *option, *value;
+    char *buf, *bufrdp, *option, *value;
     int retval;
 
-    option = NULL;
-    value  = NULL;
-
-    configfile = fopen(filename, "r");
-    if ((NULL == configfile) || (-1 == ferror(configfile)))
-        fprintf(stderr, "\t[!] error opening %s!\n", filename);
-    else {
-        while (0 == feof(configfile)) {
-            
-        }
-    }
-
+    option  = NULL;
+    value   = NULL;
     retval = EXIT_FAILURE;
 
+    configfile = fopen(filename, "r");
+    if ((NULL == configfile) || (-1 == ferror(configfile))) {
+        fprintf(stderr, "\t[!] error opening %s!\n", filename);
+        return retval;
+    }
+
+    buf     = calloc(MAX_CONFIG_FILE_SIZE, sizeof(char));
+    if (NULL == buf) 
+        err(EXIT_FAILURE, "error allocating memory (wanted %ub)!", 
+            (unsigned int)MAX_CONFIG_FILE_SIZE);
+    /* set the buffer read pointer to the start of the buffer - it will be used
+     * to demarcate lines in the config file */
+    bufrdp = buf;
 
 
+    rdsz = fread(buf, sizeof(char), MAX_CONFIG_FILE_SIZE - 1, configfile);
+    if (-1 == fclose(configfile))
+        fprintf(stderr, "error closing %s!\n", filename);
+
+    /* clean carriage returns out of config file */
+    for (i = 0; i < rdsz; ++i)
+        if ('\r' == buf[i])
+            buf[i] = '\n';
+
+    }
+
+    /* clean up */
+    free(buf);
+    buf = NULL;
     return retval;
 }
 
@@ -257,5 +297,6 @@ char
     }
 
     return buf;
-    
 }
+
+
