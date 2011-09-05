@@ -1,5 +1,5 @@
 # BASEMENT MAKEFILE
-CFLAGS := -Wall -Werror 
+CFLAGS := -Wall -Werror -g
 CC=gcc
 COMPILED := xw defscan srm irclogd
 PROGLIST := cproj.py $(COMPILED)
