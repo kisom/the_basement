@@ -1,7 +1,7 @@
 # BASEMENT MAKEFILE
 CFLAGS := -Wall -Werror 
 CC=gcc
-COMPILED := xw defscan srm
+COMPILED := xw defscan srm irclogd
 PROGLIST := cproj.py $(COMPILED)
 PREFIX := ${HOME}/bin
 
@@ -9,6 +9,9 @@ all: $(COMPILED)
 
 defscan: defscan.c
 	$(CC) $(CFLAGS) -lpcre -o defscan defscan.c
+
+irclogd: irclogd.c
+	$(CC) $(CFLAGS) -o irclogd irclogd.c
 
 srm: srm.c
 	$(CC) $(CFLAGS) -o srm srm.c -lbsd
