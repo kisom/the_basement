@@ -20,7 +20,7 @@ xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
 
 clean:
-	rm -f *.o a.out ctags etags $(COMPILED) .*.swp *.pyc wipe?
+	rm -f *.o a.out tags TAGS $(COMPILED) .*.swp *.pyc wipe?
 
 install: $(PROGLIST)
 	cp $(PROGLIST) $(PREFIX) 
@@ -37,6 +37,6 @@ ctags:
 	ctags *.c *.h >tags
 
 etags:
-	etags *.c *.h >tags
+	etags *.c *.h >TAGS
 
 .PHONY: clean install uninstall ctags etags wipetarget
