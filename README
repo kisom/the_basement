@@ -2,9 +2,10 @@ various bits and pieces of code, all thrown in here to keep them synced
 up if i want to tinker.
 
 irclogd:    C IRC logger daemon. log into several irc channels on the same 
-            server and write everything in the channel to disk. 
+            server and write everything in the channel to disk. in progress.
 srm:        secure file remover written in C. overwrites a file with random 
-            data before unlinking it. see srm -h for options.
+            data before unlinking it. see srm -h for options. works, still
+            some items on the TODO list.
 sh:         shell scripts. oh god the bourne shell was everywhere...
 xw:         xterm wrapper - execute the command line with xterm -e or an
             alternative, specifiable via an environment variable or a
