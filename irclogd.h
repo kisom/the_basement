@@ -55,7 +55,7 @@ struct irc_config {
 };
 
 void usage(void);
-void init_config(void);
+int init_config(void);
 void destroy_config(void);
 int verify_config(void);
 int load_configfile(char *);
