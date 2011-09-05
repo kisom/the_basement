@@ -38,9 +38,12 @@
 #include <err.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 
 #include "irclogd.h"
+
+static struct config cfg;
 
 int
 main(int argc, char **argv)
@@ -74,6 +77,43 @@ usage( )
     exit(EXIT_FAILURE);
 }
 
+/*
+ * verify config struct is valid. if any member is NULL or if the number of 
+ * channels does not match the reported number or if the list of channels is
+ * not NULL-terminated, the config struct is invalid.
+ */
+int
+verify_config()
+{
+    size_t i;
+    int invalid_chans, retval;
+
+    retval          = EXIT_FAILURE;
+    invalid_chans   = -1;
+
+    for (i = 0; i < cfg.channum + 1; ++i)
+        if (NULL == cfg.channels[i])
+            break;
+
+    if (i == channum)
+        invalid_chans = 0;
+
+    if ((NULL == cfg.server)        ||
+        (NULL == cfg.channels)      ||
+        (0 == cfg.channum)          ||
+        (NULL == cfg.nick)          ||
+        (NULL == cfg.username)      ||
+        (NULL == cfg.realname)      ||
+        (NULL == cfg.myhost)        ||
+        (NULL == cfg.sname))
+        break;
+    else
+        retval = EXIT_SUCCESS;
+
+
+    return invalid_chans == 0 ? retval : EXIT_FAILURE;
+}
+
 int
 load_config(char *configfile)
 {
@@ -84,3 +124,19 @@ load_config(char *configfile)
     return retval;
 }
 
+size_t
+find_colon(char *line)
+{
+    size_t colon, i, strsz;
+
+    strsz = strlen(line);
+    colon = 0;
+
+    for (i = 0; i < strsz; ++i)
+        if (':' == line[i]) {
+            colon = i;
+            break;
+        }
+
+    return colon;
+}
