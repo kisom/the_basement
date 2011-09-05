@@ -49,7 +49,6 @@ int
 main(int argc, char **argv)
 {
     int opt, retval;
-    char *buf;
 
     retval = EXIT_FAILURE;
 
@@ -69,28 +68,6 @@ main(int argc, char **argv)
 
     if (EXIT_FAILURE == init_config())
         return retval;
-
-    printf("***** strip() tests *****\n");
-
-    buf = strip_whitespace(" test");
-    printf("' test' -> '%s'\n", buf);
-    free(buf);
-    buf = NULL;
-
-    buf = strip_whitespace(" test ");
-    printf("' test ' -> '%s'\n", buf);
-    free(buf);
-    buf = NULL;
-
-    buf = strip_whitespace(" test \t");
-    printf("' test \t' -> '%s'\n", buf);
-    free(buf); 
-    buf = NULL;
-
-    buf = strip_whitespace(" test test ");
-    printf("' test test ' -> '%s'\n", buf);
-    free(buf); 
-    buf = NULL;
 
     destroy_config();
     return retval;
