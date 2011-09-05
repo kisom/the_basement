@@ -43,7 +43,7 @@
 
 #include "irclogd.h"
 
-static struct config cfg;
+static struct irc_config cfg;
 
 int
 main(int argc, char **argv)
@@ -66,6 +66,10 @@ main(int argc, char **argv)
     argc -= optind;
     argv += optind;
 
+    if (EXIT_FAILURE == init_config())
+        return retval;
+
+    destroy_config();
     return retval;
 }
 
@@ -75,6 +79,62 @@ usage( )
     extern char *__progname;
     fprintf(stderr, "usage: %s [-f configfile]\n", __progname);
     exit(EXIT_FAILURE);
+}
+
+/*
+ * initialise irc_config structure to all zeroes
+ */
+int
+init_config()
+{
+    int retval;
+
+    retval = EXIT_FAILURE;
+
+    if (EXIT_FAILURE == verify_config())
+        ;   /* nothing */
+    else {
+        cfg.server      = NULL;
+        cfg.channels    = NULL;
+        cfg.channum     = 0;
+        cfg.nick        = NULL;
+        cfg.username    = NULL;
+        cfg.realname    = NULL;
+        cfg.myhost      = NULL;
+        cfg.sname       = NULL;
+        retval          = EXIT_SUCCESS;
+    }
+
+    return retval;
+}
+
+void
+destroy_config()
+{
+    size_t i;
+
+    if (NULL != cfg.channels)
+        for (i = 0; i < cfg.channum; ++i) {
+            free(cfg.channels[i]);
+            cfg.channels[i] = NULL;
+        }
+
+    cfg.channels = NULL;
+
+    free(cfg.server);
+    free(cfg.nick);
+    free(cfg.username);
+    free(cfg.realname);
+    free(cfg.myhost);
+    free(cfg.sname);
+    cfg.server      = NULL;
+    cfg.nick        = NULL;
+    cfg.username    = NULL;
+    cfg.realname    = NULL;
+    cfg.myhost      = NULL;
+    cfg.sname       = NULL;
+
+    return;
 }
 
 /*
@@ -91,11 +151,12 @@ verify_config()
     retval          = EXIT_FAILURE;
     invalid_chans   = -1;
 
-    for (i = 0; i < cfg.channum + 1; ++i)
-        if (NULL == cfg.channels[i])
-            break;
+    if (NULL != cfg.channels)
+        for (i = 0; i < cfg.channum + 1; ++i)
+            if (NULL == cfg.channels[i])
+                break;
 
-    if (i == channum)
+    if (i == cfg.channum)
         invalid_chans = 0;
 
     if ((NULL == cfg.server)        ||
@@ -106,7 +167,7 @@ verify_config()
         (NULL == cfg.realname)      ||
         (NULL == cfg.myhost)        ||
         (NULL == cfg.sname))
-        break;
+        ;   /* nothing */
     else
         retval = EXIT_SUCCESS;
 
@@ -115,7 +176,7 @@ verify_config()
 }
 
 int
-load_config(char *configfile)
+load_configfile(char *configfile)
 {
     int retval;
 
