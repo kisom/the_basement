@@ -207,6 +207,7 @@ load_configfile(char *filename)
 
     option  = NULL;
     value   = NULL;
+    newline = 0;
     retval = EXIT_FAILURE;
 
     configfile = fopen(filename, "r");
@@ -232,8 +233,6 @@ load_configfile(char *filename)
     for (i = 0; i < rdsz; ++i)
         if ('\r' == buf[i])
             buf[i] = '\n';
-
-    }
 
     /* clean up */
     free(buf);
