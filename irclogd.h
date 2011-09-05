@@ -60,5 +60,7 @@ void destroy_config(void);
 int verify_config(void);
 int load_configfile(char *);
 size_t find_colon(char *);
+char *get_simple_option(char *);
+char *strip_whitespace(char *);
 
 
