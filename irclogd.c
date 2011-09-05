@@ -91,7 +91,7 @@ init_config()
 
     retval = EXIT_FAILURE;
 
-    if (EXIT_FAILURE == verify_config())
+    if (EXIT_FAILURE != verify_config())
         ;   /* nothing */
     else {
         cfg.server      = NULL;
@@ -176,11 +176,27 @@ verify_config()
 }
 
 int
-load_configfile(char *configfile)
+load_configfile(char *filename)
 {
+    FILE *configfile;
+    char *option, *value;
     int retval;
 
+    option = NULL;
+    value  = NULL;
+
+    configfile = fopen(filename, "r");
+    if ((NULL == configfile) || (-1 == ferror(configfile)))
+        fprintf(stderr, "\t[!] error opening %s!\n", filename);
+    else {
+        while (0 == feof(configfile)) {
+            
+        }
+    }
+
     retval = EXIT_FAILURE;
+
+
 
     return retval;
 }
@@ -200,4 +216,46 @@ find_colon(char *line)
         }
 
     return colon;
+}
+
+char
+*get_simple_option(char *line)
+{
+    return NULL;
+}
+
+char
+*strip_whitespace(char *line)
+{
+    size_t end, start, strsz;
+    char *buf;
+
+    buf     = NULL;
+    strsz   = strlen(line);
+    start   = 0;
+    end     = strsz - 1;
+
+    /* find start of first non-whitespace character at beginning of string */
+    while (start < strsz)
+        if ((' ' == line[start]) || ('\t' == line[start]) || 
+            ('\n' == line[start]))
+            start++;
+        else
+            break;
+
+    /* find first non-whitespace character at the end of the string */
+    while (0 < end) 
+        if ((' ' == line[end]) || ('\t' == line[end]) || ('\n' == line[end]))
+            end--; 
+        else
+            break;
+
+    if (start < end) {
+        strsz = end - start;
+        buf = calloc(strsz + 1, sizeof(char));
+        strncpy(buf, line + start, strsz + 1);
+    }
+
+    return buf;
+    
 }
