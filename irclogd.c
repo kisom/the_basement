@@ -75,20 +75,22 @@ main(int argc, char **argv)
     buf = strip_whitespace(" test");
     printf("' test' -> '%s'\n", buf);
     free(buf);
+    buf = NULL;
 
     buf = strip_whitespace(" test ");
     printf("' test ' -> '%s'\n", buf);
     free(buf);
+    buf = NULL;
 
     buf = strip_whitespace(" test \t");
     printf("' test \t' -> '%s'\n", buf);
-    free(buf);  
+    free(buf); 
+    buf = NULL;
 
     buf = strip_whitespace(" test test ");
     printf("' test test ' -> '%s'\n", buf);
-    free(buf);  
-
-
+    free(buf); 
+    buf = NULL;
 
     destroy_config();
     return retval;
