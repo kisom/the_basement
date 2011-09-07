@@ -72,7 +72,7 @@ int main(int argc, char **argv) {
 
 filetype_t header_p(char *pathname) {
     filetype_t ftype = FILE_OTHER;
-    size_t psz  = strlen(pathname);             /* path size */
+    size_t psz;                                                /* path size */
     psz = strlen(pathname);
 
     /* super effective extension-based file scanning! */
@@ -116,8 +116,7 @@ void dirwalk(const char *dirpath, char **list, size_t *sz, filetype_t loadt) {
         direntp = readdir(dirp); 
     }
 
-    if (0 == errno) {
-        if (0 != closedir(dirp)) {
+    if ((0 == errno) && (0 != closedir(dirp)) {
             fprintf(stderr, "error closing %s!\n", dirpath);
         } /* not much else we can do at this point */
 
@@ -125,12 +124,6 @@ void dirwalk(const char *dirpath, char **list, size_t *sz, filetype_t loadt) {
         direntp = NULL;
 
         return;
-    } else {
-        /* fuck it */
-        dirp    = NULL;
-        direntp = NULL;
-        return;
-    }
 
     return;
 }
