@@ -28,8 +28,6 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#define _BSD_SOURCE
-
 #include <sys/cdefs.h>
 #include <sys/file.h>
 #include <sys/stat.h>
