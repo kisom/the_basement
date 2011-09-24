@@ -14,7 +14,7 @@ irclogd: irclogd.c
 	$(CC) $(CFLAGS) -o irclogd irclogd.c
 
 srm: srm.c
-	$(CC) $(CFLAGS) -o srm srm.c -lbsd
+	$(CC) $(CFLAGS) -o srm srm.c
 
 xw: xw.c
 	$(CC) $(CFLAGS) -o xw xw.c
