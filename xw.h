@@ -18,7 +18,7 @@
  /************************************************************************/
  #define    ENV_VAR_NAME        "XWRAPPER"
  #define    CONFRC_PATH         ".config/.xwrc"
- #define    DEFAULT_XTERM       "/usr/bin/xterm -e"
+ #define    DEFAULT_XTERM       "/usr/local/bin/urxvt -e"
  #define    MAX_SH_LEN          255
  #define    MAX_ENV_LEN         255
  #define    MAX_CMD_LEN         255
