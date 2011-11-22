@@ -1,0 +1,4473 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+ <head>
+  <title>
+   overview for A1B21F8244F
+  </title>
+  <meta name="keywords" content=" reddit, reddit.com, vote, comment, submit " />
+  <meta name="title" content=" overview for A1B21F8244F " />
+  <meta name="description" content="reddit: the front page of the internet" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=800, initial-scale=1" />
+  <link rel="stylesheet" href="http://www.redditstatic.com/reddit.SWy2BfjDAAM.css" type="text/css" />
+  <style type="text/css" title="applied_subreddit_stylesheet">
+   /* #header-img-a img { margin-top: 0; } #header-img-a img { margin-left: 2px; } #header-img-a { vertical-align: bottom; } */
+  </style>
+  <link rel="shortcut icon" href="http://www.redditstatic.com/favicon.ico" type="image/x-icon" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.reddit.com/user/A1B21F8244F/.rss" />
+  <!--[if lt IE 7]><link rel="stylesheet" href="http://www.redditstatic.com/reddit-ie6-hax.jbdCLG3Tiv8.css"" type="text/css"  /><![endif]-->
+  <!--[if lt IE 8]><link rel="stylesheet" href="http://www.redditstatic.com/reddit-ie7-hax.OpXf7sDBy28.css"" type="text/css"  /><![endif]-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="http://www.redditstatic.com/reddit.en.xMviOWUyZqo.js">
+  </script>
+  <script type="text/javascript" id="config">
+   r.setup({"ajax_domain": "www.reddit.com", "https_endpoint": "https://ssl.reddit.com", "post_site": "", "extension": "", "renderstyle": "html", "status_msg": {"fetching": "fetching title...", "loading": "loading...", "submitting": "submitting..."}, "modhash": false, "logged": "", "is_fake": true, "clicktracker_url": "http://pixel.redditmedia.com/click", "cur_domain": "reddit.com", "referer": "", "sr": {}, "debug": false, "static_root": "http://www.redditstatic.com", "vl": {}, "cnameframe": false, "adtracker_url": "http://pixel.redditmedia.com/pixel/of_doom.png", "tracking_domain": "pixel.redditmedia.com"})
+  </script>
+  <script type="text/javascript">
+   reddit.cur_site = "t5_6";
+  </script>
+  <style type="text/css">
+   /* Custom css: use this block to insert special translation-dependent css in the page header */
+  </style>
+  <script type="text/javascript">
+   (function() { var url = 'http://pixel.redditmedia.com/pixel/of_destiny.png?v=lLP1yomnJ3DQarcp83AXeNexMktj5zl%2BvPhwisqjGiOTvbMdKJdspbyuvkO6kZbMy5kNteBZKuA%3D'; var cachebuster = Math.round(Math.random() * 2147483647); var cachebusted_url = url + "&r=" + cachebuster; var img = new Image(); img.src = cachebusted_url; })();
+  </script>
+  <script type="text/javascript">
+   var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-12131688-1']); _gaq.push(['_setCustomVar', 1, 'site', ' reddit.com', 3]); _gaq.push(['_setCustomVar', 2, 'srpath', ' reddit.com-GET_listing', 3]); _gaq.push(['_setCustomVar', 3, 'usertype', 'guest', 2]); _gaq.push(['_setCustomVar', 4, 'uitype', 'web', 3]); _gaq.push(['_trackPageview']); _gaq.push(['_trackPageLoadTime']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+  </script>
+ </head>
+ <body>
+  <div id="header">
+   <a tabindex="1" href="#content" id="jumpToContent">
+    jump to content
+   </a>
+   <div id="sr-header-area">
+    <ul class="flat-list sr-bar hover">
+     <li>
+      <a href="http://www.reddit.com/r/all/">
+       all
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/random/">
+       random
+      </a>
+     </li>
+    </ul>
+    <span class="separator">
+     &nbsp;|&nbsp;
+    </span>
+    <ul class="flat-list sr-bar hover" id="sr-bar">
+     <li>
+      <a href="http://www.reddit.com/r/pics/">
+       pics
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/funny/">
+       funny
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/politics/">
+       politics
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/gaming/">
+       gaming
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/AskReddit/">
+       AskReddit
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/worldnews/">
+       worldnews
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/videos/">
+       videos
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/IAmA/">
+       IAmA
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/todayilearned/">
+       todayilearned
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/WTF/">
+       WTF
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/aww/">
+       aww
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/atheism/">
+       atheism
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/technology/">
+       technology
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/AdviceAnimals/">
+       AdviceAnimals
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/science/">
+       science
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/Music/">
+       Music
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/askscience/">
+       askscience
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/movies/">
+       movies
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/bestof/">
+       bestof
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/trees/">
+       trees
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/skyrim/">
+       skyrim
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/occupywallstreet/">
+       occupywallstreet
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/starcraft/">
+       starcraft
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/gifs/">
+       gifs
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/circlejerk/">
+       circlejerk
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/leagueoflegends/">
+       leagueoflegends
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/Android/">
+       Android
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/mylittlepony/">
+       mylittlepony
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/nfl/">
+       nfl
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/firstworldproblems/">
+       firstworldproblems
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/battlefield3/">
+       battlefield3
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/comics/">
+       comics
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/news/">
+       news
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/geek/">
+       geek
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/tf2/">
+       tf2
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/harrypotter/">
+       harrypotter
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/doctorwho/">
+       doctorwho
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/food/">
+       food
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/community/">
+       community
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/Libertarian/">
+       Libertarian
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/offbeat/">
+       offbeat
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/EarthPorn/">
+       EarthPorn
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/canada/">
+       canada
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/pokemon/">
+       pokemon
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/LadyBoners/">
+       LadyBoners
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/creepy/">
+       creepy
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/lgbt/">
+       lgbt
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/loseit/">
+       loseit
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/zelda/">
+       zelda
+      </a>
+     </li>
+     <li>
+      <span class="separator">
+       -
+      </span>
+      <a href="http://www.reddit.com/r/soccer/">
+       soccer
+      </a>
+     </li>
+    </ul>
+    <a href="http://www.reddit.com/reddits/" id="sr-more-link">
+     more &raquo;
+    </a>
+   </div>
+   <div id="header-bottom-left">
+    <a href="/" id="header-img" class="default-header" title="">
+     reddit.com
+    </a>
+    &nbsp;
+    <span class="pagename selected">
+     A1B21F8244F
+    </span>
+    <ul class="tabmenu ">
+     <li class="selected">
+      <a href="http://www.reddit.com/user/A1B21F8244F/">
+       overview
+      </a>
+     </li>
+     <li>
+      <a href="http://www.reddit.com/user/A1B21F8244F/comments/">
+       comments
+      </a>
+     </li>
+     <li>
+      <a href="http://www.reddit.com/user/A1B21F8244F/submitted/">
+       submitted
+      </a>
+     </li>
+    </ul>
+   </div>
+   <div id="header-bottom-right">
+    <span class="user">
+     want to join?&#32;
+     <a href="https://ssl.reddit.com/login" class="login-required">
+      login or register
+     </a>
+     &#32;in seconds
+    </span>
+    <span class="separator">
+     |
+    </span>
+    <ul class="flat-list hover">
+     <li>
+      <a href="javascript:void(0)" class="pref-lang" onclick="return showlang();">
+       English
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <div class="side">
+   <div class="spacer">
+    <div class="titlebox">
+     <h1>
+      A1B21F8244F
+     </h1>
+     <div>
+      <span class="fancy-toggle-button toggle" style="">
+       <a class="option active add login-required" href="#" tabindex="100">
+        + friends
+       </a>
+       <a class="option remove" href="#">
+        - friends
+       </a>
+      </span>
+     </div>
+     <span class="karma">
+      16
+     </span>
+     &#32; link karma
+     <br />
+     <span class="karma">
+      250
+     </span>
+     &#32; comment karma
+     <div class="bottom">
+      <img src="http://www.redditstatic.com/mailgray.png" />
+      &#32;
+      <a href="http://www.reddit.com/message/compose/?to=A1B21F8244F">
+       send message
+      </a>
+      <span class="age">
+       redditor for&#32;
+       <time title="Sun Oct 16 10:41:05 2011 GMT" datetime="2011-10-16T10:41:05.082079-07:00">
+        1 month
+       </time>
+      </span>
+     </div>
+     <div class="clear">
+     </div>
+    </div>
+   </div>
+   <div class="spacer">
+    <div class="sidecontentbox trophy-area">
+     <a class="helplink" href="/help/awards">
+      what's this?
+     </a>
+     <h1>
+      TROPHY CASE
+     </h1>
+     <ul class="content">
+      <li>
+       <div class="dust">
+        dust
+       </div>
+       <table class="trophy-table">
+       </table>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="spacer">
+    <form method="post" action="https://ssl.reddit.com/post/login" id="login_login-main" class="login-form login-form-side">
+     <input type="hidden" name="op" value="login-main" />
+     <input name="user" placeholder="username" type="text" maxlength="20" tabindex="1" />
+     <input name="passwd" placeholder="password" type="password" tabindex="1" />
+     <div class="status">
+     </div>
+     <div id="remember-me">
+      <input type="checkbox" name="rem" id="rem-login-main" tabindex="1" />
+      <label for="rem-login-main">
+       remember me
+      </label>
+      <a class="recover-password" href="/password">
+       reset password
+      </a>
+     </div>
+     <div class="submit">
+      <span class="throbber">
+      </span>
+      <button class="btn" type="submit" tabindex="1">
+       login
+      </button>
+     </div>
+     <div class="clear">
+     </div>
+    </form>
+   </div>
+   <div class="spacer">
+   </div>
+   <div class="spacer">
+    <iframe id="ad-frame" frameborder="0" scrolling="no" name="ad-frame" src="http://www.redditmedia.com/ads/">
+    </iframe>
+    <script type="text/javascript">
+     $(function() { var ad = $("#ad-frame"); if(!ad.length || ad.height() == 0 || ad.width() == 0 || ad.offset().left == 0) { $(".footer").append("<img alt='' src='http://pixel.redditmedia.com/pixel/of_defenestration.png?hash=0e31bc319d5b5882b0cddf147f4ce1da5ac9c731&id=adblock&random=" + Math.random()*10000000000000000 + "' />"); } });
+    </script>
+   </div>
+  </div>
+  <a name="content">
+  </a>
+  <div class="content">
+   <div class="infobar ">
+    <div class="md">
+     <p>
+      reddit is a source for what&#39;s new and popular online. vote on links that you like or dislike and help decide what&#39;s popular, or submit your own!
+     </p>
+    </div>
+   </div>
+   <div class="menuarea">
+    <div class="spacer">
+     <span class="dropdown-title lightdrop ">
+      sorted by:&#32;
+     </span>
+     <div class="dropdown lightdrop " onclick="open_menu(this)" onmouseover="hover_open_menu(this)">
+      <span class="selected">
+       new
+      </span>
+     </div>
+     <div class="drop-choices lightdrop ">
+      <a href="http://www.reddit.com/user/A1B21F8244F?sort=hot" class="choice ">
+       hot
+      </a>
+      <a href="http://www.reddit.com/user/A1B21F8244F?sort=top" class="choice ">
+       top
+      </a>
+      <a href="http://www.reddit.com/user/A1B21F8244F?sort=controversial" class="choice ">
+       controversial
+      </a>
+     </div>
+    </div>
+   </div>
+   <div id="siteTable" class="sitetable linklisting">
+    <div class="thing id-t1_c311bjd even odd comment " data-fullname="t1_c311bjd" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c311bjd">
+      </a>
+      <a href="http://imgur.com/kDGG8" class="title" rel="nofollow">
+       It sure does...
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/thewok79" class="author id-t2_54w75">
+       thewok79
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        1 point
+       </span>
+       <span class="score unvoted">
+        2 points
+       </span>
+       <span class="score likes">
+        3 points
+       </span>
+       &#32;
+       <time title="Sat Nov 19 07:05:13 2011 GMT" datetime="2011-11-19T07:05:13.624933+00:00">
+        7 hours
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         1 point
+        </span>
+        <span class="score unvoted">
+         2 points
+        </span>
+        <span class="score likes">
+         3 points
+        </span>
+        &#32;
+        <time title="Sat Nov 19 07:05:13 2011 GMT" datetime="2011-11-19T07:05:13.624933+00:00">
+         7 hours
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c311bjdiu2">
+        <input type="hidden" name="thing_id" value="t1_c311bjd" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 06:58:25 2404141 23859107345 34170859 41537098 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mhdkj/it_sure_does/c311bjd" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/mhdkj/it_sure_does/c311bjd?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mhdkj/it_sure_does/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c310i9a even even comment " data-fullname="t1_c310i9a" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c310i9a">
+      </a>
+      <a href="http://i.imgur.com/UYYn2.jpg" class="title" rel="nofollow">
+       Today UPS dropped off my favorite game as a kid!!!
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/Smartastic" class="author id-t2_5zj00">
+       Smartastic
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -6 points
+       </span>
+       <span class="score unvoted">
+        -5 points
+       </span>
+       <span class="score likes">
+        -4 points
+       </span>
+       &#32;
+       <time title="Sat Nov 19 04:44:22 2011 GMT" datetime="2011-11-19T04:44:22.796740+00:00">
+        10 hours
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -6 points
+        </span>
+        <span class="score unvoted">
+         -5 points
+        </span>
+        <span class="score likes">
+         -4 points
+        </span>
+        &#32;
+        <time title="Sat Nov 19 04:44:22 2011 GMT" datetime="2011-11-19T04:44:22.796740+00:00">
+         10 hours
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c310i9aiy0">
+        <input type="hidden" name="thing_id" value="t1_c310i9a" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 02:49:59 2404141 2231593087 1394857 4153798 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mho8d/today_ups_dropped_off_my_favorite_game_as_a_kid/c310i9a" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/mho8d/today_ups_dropped_off_my_favorite_game_as_a_kid/c310i9a?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mho8d/today_ups_dropped_off_my_favorite_game_as_a_kid/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c310i4e even odd comment " data-fullname="t1_c310i4e" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c310i4e">
+      </a>
+      <a href="http://i.imgur.com/UYYn2.jpg" class="title" rel="nofollow">
+       Today UPS dropped off my favorite game as a kid!!!
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/Smartastic" class="author id-t2_5zj00">
+       Smartastic
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -7 points
+       </span>
+       <span class="score unvoted">
+        -6 points
+       </span>
+       <span class="score likes">
+        -5 points
+       </span>
+       &#32;
+       <time title="Sat Nov 19 04:43:45 2011 GMT" datetime="2011-11-19T04:43:45.703911+00:00">
+        10 hours
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -7 points
+        </span>
+        <span class="score unvoted">
+         -6 points
+        </span>
+        <span class="score likes">
+         -5 points
+        </span>
+        &#32;
+        <time title="Sat Nov 19 04:43:45 2011 GMT" datetime="2011-11-19T04:43:45.703911+00:00">
+         10 hours
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c310i4et1n">
+        <input type="hidden" name="thing_id" value="t1_c310i4e" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 03:19:46 2404141 2314579803160 19586 43981 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mho8d/today_ups_dropped_off_my_favorite_game_as_a_kid/c310i4e" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/mho8d/today_ups_dropped_off_my_favorite_game_as_a_kid/c310i4e?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mho8d/today_ups_dropped_off_my_favorite_game_as_a_kid/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c310hxj even even comment " data-fullname="t1_c310hxj" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c310hxj">
+      </a>
+      <a href="http://imgur.com/kDGG8" class="title" rel="nofollow">
+       It sure does...
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/thewok79" class="author id-t2_54w75">
+       thewok79
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        3 points
+       </span>
+       <span class="score unvoted">
+        4 points
+       </span>
+       <span class="score likes">
+        5 points
+       </span>
+       &#32;
+       <time title="Sat Nov 19 04:42:56 2011 GMT" datetime="2011-11-19T04:42:56.808572+00:00">
+        10 hours
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         3 points
+        </span>
+        <span class="score unvoted">
+         4 points
+        </span>
+        <span class="score likes">
+         5 points
+        </span>
+        &#32;
+        <time title="Sat Nov 19 04:42:56 2011 GMT" datetime="2011-11-19T04:42:56.808572+00:00">
+         10 hours
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c310hxj795">
+        <input type="hidden" name="thing_id" value="t1_c310hxj" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 21:37:06 2404141 213598701350 35981459481 310948 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mhdkj/it_sure_does/c310hxj" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/mhdkj/it_sure_does/c310hxj?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/mhdkj/it_sure_does/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2zd64b even odd comment " data-fullname="t1_c2zd64b" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2zd64b">
+      </a>
+      <a href="/r/askscience/comments/mad87/what_is_déjà_vu/" class="title" rel="nofollow">
+       What is &quot;Déjà vu&quot;?
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/HouseOfScribes" class="author id-t2_5fi8d">
+       HouseOfScribes
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/askscience/" class="subreddit hover">
+       askscience
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -15 points
+       </span>
+       <span class="score unvoted">
+        -14 points
+       </span>
+       <span class="score likes">
+        -13 points
+       </span>
+       &#32;
+       <time title="Sat Nov 12 22:12:45 2011 GMT" datetime="2011-11-12T22:12:45.655165-07:00">
+        6 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -15 points
+        </span>
+        <span class="score unvoted">
+         -14 points
+        </span>
+        <span class="score likes">
+         -13 points
+        </span>
+        &#32;
+        <time title="Sat Nov 12 22:12:45 2011 GMT" datetime="2011-11-12T22:12:45.655165-07:00">
+         6 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2zd64b6jp">
+        <input type="hidden" name="thing_id" value="t1_c2zd64b" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 03:23:25 2404141 2310345908314857 1348976 1348769 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/askscience/comments/mad87/what_is_déjà_vu/c2zd64b" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/askscience/comments/mad87/what_is_déjà_vu/c2zd64b?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/askscience/comments/mad87/what_is_déjà_vu/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2zd5yf even even comment " data-fullname="t1_c2zd5yf" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2zd5yf">
+      </a>
+      <a href="/r/askscience/comments/mad87/what_is_déjà_vu/" class="title" rel="nofollow">
+       What is &quot;Déjà vu&quot;?
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/HouseOfScribes" class="author id-t2_5fi8d">
+       HouseOfScribes
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/askscience/" class="subreddit hover">
+       askscience
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -5 points
+       </span>
+       <span class="score unvoted">
+        -4 points
+       </span>
+       <span class="score likes">
+        -3 points
+       </span>
+       &#32;
+       <time title="Sat Nov 12 22:12:05 2011 GMT" datetime="2011-11-12T22:12:05.801811-07:00">
+        6 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -5 points
+        </span>
+        <span class="score unvoted">
+         -4 points
+        </span>
+        <span class="score likes">
+         -3 points
+        </span>
+        &#32;
+        <time title="Sat Nov 12 22:12:05 2011 GMT" datetime="2011-11-12T22:12:05.801811-07:00">
+         6 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2zd5yfqw1">
+        <input type="hidden" name="thing_id" value="t1_c2zd5yf" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 04:21:39 2404141 213145710014500314587249 3241345 150948313409 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/askscience/comments/mad87/what_is_déjà_vu/c2zd5yf" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/askscience/comments/mad87/what_is_déjà_vu/c2zd5yf?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/askscience/comments/mad87/what_is_déjà_vu/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class=" thing id-t3_m5hwv even even link " data-fullname="t3_m5hwv" onclick="click_thing(this)">
+     <p class="parent">
+     </p>
+     <span class="rank" style="width:0px;display:none;">
+      7
+     </span>
+     <div class="midcol unvoted" style="width:3ex;">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="score dislikes">
+       8
+      </div>
+      <div class="score unvoted">
+       9
+      </div>
+      <div class="score likes">
+       10
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <p class="title">
+       <a class="title " href="http://www.google.com/maps?ll=36.597889,-80.507812&amp;spn=78.417814,158.027344&amp;t=h&amp;vpsrc=6&amp;z=3">
+        1543230214164254
+       </a>
+       &#32;
+       <span class="domain">
+        (
+        <a href="http://www.reddit.com/domain/google.com/">
+         google.com
+        </a>
+        )
+       </span>
+      </p>
+      <p class="tagline">
+       submitted&#32;
+       <time title="Tue Nov 8 18:03:44 2011 GMT" datetime="2011-11-08T18:03:44.139131-07:00">
+        10 days
+       </time>
+       &#32;ago&#32;by&#32;
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;to&#32;
+       <a href="http://www.reddit.com/r/A1B21F8244F/" class="subreddit hover">
+        A1B21F8244F
+       </a>
+       <script type="text/javascript">
+        reddit.sr['t3_m5hwv'] = 't5_2sznu';
+       </script>
+      </p>
+      <ul class="flat-list buttons">
+       <li class="first">
+        <a class="comments" href="http://www.reddit.com/r/A1B21F8244F/comments/m5hwv/1543230214164254/" target="_parent">
+         9 comments
+        </a>
+       </li>
+       <li class="share">
+        <span class="share-button toggle" style="">
+         <a class="option active login-required" href="#" tabindex="100">
+          share
+         </a>
+         <a class="option " href="#">
+          cancel
+         </a>
+        </span>
+       </li>
+      </ul>
+      <div class="expando" style="display: none">
+       <span class="error">
+        loading...
+       </span>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2y94pw even odd comment " data-fullname="t1_c2y94pw" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2y94pw">
+      </a>
+      <a href="http://i.imgur.com/4Ma9N.jpg" class="title" rel="nofollow">
+       Everyone was thinking it...
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/monom90" class="author id-t2_56y57">
+       monom90
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -13 points
+       </span>
+       <span class="score unvoted">
+        -12 points
+       </span>
+       <span class="score likes">
+        -11 points
+       </span>
+       &#32;
+       <time title="Tue Nov 8 17:50:04 2011 GMT" datetime="2011-11-08T17:50:04.992038-07:00">
+        10 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -13 points
+        </span>
+        <span class="score unvoted">
+         -12 points
+        </span>
+        <span class="score likes">
+         -11 points
+        </span>
+        &#32;
+        <time title="Tue Nov 8 17:50:04 2011 GMT" datetime="2011-11-08T17:50:04.992038-07:00">
+         10 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2y94pwd3p">
+        <input type="hidden" name="thing_id" value="t1_c2y94pw" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 00:09:54 2404141 252341107 3140985 8014530817 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m5cpq/everyone_was_thinking_it/c2y94pw" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m5cpq/everyone_was_thinking_it/c2y94pw?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m5cpq/everyone_was_thinking_it/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2y8t5p even even comment " data-fullname="t1_c2y8t5p" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2y8t5p">
+      </a>
+      <a href="http://imgur.com/YVkxH" class="title" rel="nofollow">
+       Bringing the joy of Reddit to the real world one T-Shirt at a time
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/ParadoxGambler" class="author id-t2_6758l">
+       ParadoxGambler
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -12 points
+       </span>
+       <span class="score unvoted">
+        -11 points
+       </span>
+       <span class="score likes">
+        -10 points
+       </span>
+       &#32;
+       <time title="Tue Nov 8 17:14:55 2011 GMT" datetime="2011-11-08T17:14:55.784669-07:00">
+        10 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -12 points
+        </span>
+        <span class="score unvoted">
+         -11 points
+        </span>
+        <span class="score likes">
+         -10 points
+        </span>
+        &#32;
+        <time title="Tue Nov 8 17:14:55 2011 GMT" datetime="2011-11-08T17:14:55.784669-07:00">
+         10 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2y8t5p53j">
+        <input type="hidden" name="thing_id" value="t1_c2y8t5p" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 22:16:14 2404141 211378508818 1357834587100 1304857 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m54mb/bringing_the_joy_of_reddit_to_the_real_world_one/c2y8t5p" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m54mb/bringing_the_joy_of_reddit_to_the_real_world_one/c2y8t5p?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m54mb/bringing_the_joy_of_reddit_to_the_real_world_one/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2y8swl even odd comment " data-fullname="t1_c2y8swl" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2y8swl">
+      </a>
+      <a href="http://www.mummycomics.com/wp-content/webcomic/mummy_comics/mummy_158.png" class="title" rel="nofollow">
+       Every time I read a book I think about something like this happening
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/SpecialSlab" class="author id-t2_4vk7j">
+       SpecialSlab
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -13 points
+       </span>
+       <span class="score unvoted">
+        -12 points
+       </span>
+       <span class="score likes">
+        -11 points
+       </span>
+       &#32;
+       <time title="Tue Nov 8 17:14:14 2011 GMT" datetime="2011-11-08T17:14:14.001495-07:00">
+        10 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -13 points
+        </span>
+        <span class="score unvoted">
+         -12 points
+        </span>
+        <span class="score likes">
+         -11 points
+        </span>
+        &#32;
+        <time title="Tue Nov 8 17:14:14 2011 GMT" datetime="2011-11-08T17:14:14.001495-07:00">
+         10 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2y8swlola">
+        <input type="hidden" name="thing_id" value="t1_c2y8swl" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 21:29:08 2404141 212345010087871 5138706 1485370 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m552a/every_time_i_read_a_book_i_think_about_something/c2y8swl" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m552a/every_time_i_read_a_book_i_think_about_something/c2y8swl?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m552a/every_time_i_read_a_book_i_think_about_something/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2y8skb even even comment " data-fullname="t1_c2y8skb" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2y8skb">
+      </a>
+      <a href="http://i.imgur.com/4Ma9N.jpg" class="title" rel="nofollow">
+       Everyone was thinking it...
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/monom90" class="author id-t2_56y57">
+       monom90
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -37 points
+       </span>
+       <span class="score unvoted">
+        -36 points
+       </span>
+       <span class="score likes">
+        -35 points
+       </span>
+       &#32;
+       <time title="Tue Nov 8 17:13:11 2011 GMT" datetime="2011-11-08T17:13:11.535205-07:00">
+        10 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -37 points
+        </span>
+        <span class="score unvoted">
+         -36 points
+        </span>
+        <span class="score likes">
+         -35 points
+        </span>
+        &#32;
+        <time title="Tue Nov 8 17:13:11 2011 GMT" datetime="2011-11-08T17:13:11.535205-07:00">
+         10 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2y8skbumc">
+        <input type="hidden" name="thing_id" value="t1_c2y8skb" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 00:05:10 2404141 22530871 153470981587094 14578240 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m5cpq/everyone_was_thinking_it/c2y8skb" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m5cpq/everyone_was_thinking_it/c2y8skb?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m5cpq/everyone_was_thinking_it/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2y8scn even odd comment " data-fullname="t1_c2y8scn" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2y8scn">
+      </a>
+      <a href="http://imgur.com/4CJkc" class="title" rel="nofollow">
+       Sense is finally made
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/SecretlyBritish" class="author id-t2_63h9w">
+       SecretlyBritish
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -32 points
+       </span>
+       <span class="score unvoted">
+        -31 points
+       </span>
+       <span class="score likes">
+        -30 points
+       </span>
+       &#32;
+       <time title="Tue Nov 8 17:12:29 2011 GMT" datetime="2011-11-08T17:12:29.870754-07:00">
+        10 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -32 points
+        </span>
+        <span class="score unvoted">
+         -31 points
+        </span>
+        <span class="score likes">
+         -30 points
+        </span>
+        &#32;
+        <time title="Tue Nov 8 17:12:29 2011 GMT" datetime="2011-11-08T17:12:29.870754-07:00">
+         10 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2y8scncwr">
+        <input type="hidden" name="thing_id" value="t1_c2y8scn" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 21:34:35 2404141 21435140170 1543780817 154937 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m58x5/sense_is_finally_made/c2y8scn" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m58x5/sense_is_finally_made/c2y8scn?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m58x5/sense_is_finally_made/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class=" thing id-t3_m10hh even even link " data-fullname="t3_m10hh" onclick="click_thing(this)">
+     <p class="parent">
+     </p>
+     <span class="rank" style="width:0px;display:none;">
+      13
+     </span>
+     <div class="midcol unvoted" style="width:3ex;">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="score dislikes">
+       7
+      </div>
+      <div class="score unvoted">
+       8
+      </div>
+      <div class="score likes">
+       9
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <p class="title">
+       <a class="title " href="http://www.google.com/maps?ll=35.46067,-84.375&amp;spn=137.487908,316.054688&amp;t=h&amp;z=2&amp;vpsrc=6">
+        1543230214164254
+       </a>
+       &#32;
+       <span class="domain">
+        (
+        <a href="http://www.reddit.com/domain/google.com/">
+         google.com
+        </a>
+        )
+       </span>
+      </p>
+      <p class="tagline">
+       submitted&#32;
+       <time title="Fri Nov 4 19:07:21 2011 GMT" datetime="2011-11-04T19:07:21.773743-07:00">
+        14 days
+       </time>
+       &#32;ago&#32;by&#32;
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;to&#32;
+       <a href="http://www.reddit.com/r/A1B21F8244F/" class="subreddit hover">
+        A1B21F8244F
+       </a>
+       <script type="text/javascript">
+        reddit.sr['t3_m10hh'] = 't5_2sznu';
+       </script>
+      </p>
+      <ul class="flat-list buttons">
+       <li class="first">
+        <a class="comments" href="http://www.reddit.com/r/A1B21F8244F/comments/m10hh/1543230214164254/" target="_parent">
+         11 comments
+        </a>
+       </li>
+       <li class="share">
+        <span class="share-button toggle" style="">
+         <a class="option active login-required" href="#" tabindex="100">
+          share
+         </a>
+         <a class="option " href="#">
+          cancel
+         </a>
+        </span>
+       </li>
+      </ul>
+      <div class="expando" style="display: none">
+       <span class="error">
+        loading...
+       </span>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2x67x0 even even comment " data-fullname="t1_c2x67x0" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2x67x0">
+      </a>
+      <a href="http://imgur.com/FMpjV" class="title" rel="nofollow">
+       This is Rob.
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/nosgdodselrahc" class="author id-t2_5bbec">
+       nosgdodselrahc
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -4 points
+       </span>
+       <span class="score unvoted">
+        -3 points
+       </span>
+       <span class="score likes">
+        -2 points
+       </span>
+       &#32;
+       <time title="Fri Nov 4 17:41:31 2011 GMT" datetime="2011-11-04T17:41:31.569815-07:00">
+        14 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -4 points
+        </span>
+        <span class="score unvoted">
+         -3 points
+        </span>
+        <span class="score likes">
+         -2 points
+        </span>
+        &#32;
+        <time title="Fri Nov 4 17:41:31 2011 GMT" datetime="2011-11-04T17:41:31.569815-07:00">
+         14 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2x67x0koh">
+        <input type="hidden" name="thing_id" value="t1_c2x67x0" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 21:10:35 2404141 24138709143570 41385709 4153709 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m0pp9/this_is_rob/c2x67x0" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m0pp9/this_is_rob/c2x67x0?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m0pp9/this_is_rob/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2x67pa even odd comment " data-fullname="t1_c2x67pa" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2x67pa">
+      </a>
+      <a href="http://i.imgur.com/HmuVn.jpg" class="title" rel="nofollow">
+       Nice try, math
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/Gargarbinks" class="author id-t2_5w7yy">
+       Gargarbinks
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -6 points
+       </span>
+       <span class="score unvoted">
+        -5 points
+       </span>
+       <span class="score likes">
+        -4 points
+       </span>
+       &#32;
+       <time title="Fri Nov 4 17:40:39 2011 GMT" datetime="2011-11-04T17:40:39.954675-07:00">
+        14 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -6 points
+        </span>
+        <span class="score unvoted">
+         -5 points
+        </span>
+        <span class="score likes">
+         -4 points
+        </span>
+        &#32;
+        <time title="Fri Nov 4 17:40:39 2011 GMT" datetime="2011-11-04T17:40:39.954675-07:00">
+         14 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2x67pah1m">
+        <input type="hidden" name="thing_id" value="t1_c2x67pa" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 21:54:13 2404141 23412509874315798 4137098 13457098 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m0rxr/nice_try_math/c2x67pa" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/m0rxr/nice_try_math/c2x67pa?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/m0rxr/nice_try_math/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wx520 even even comment " data-fullname="t1_c2wx520" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wx520">
+      </a>
+      <a href="http://i.imgur.com/NfC1O.jpg" class="title" rel="nofollow">
+       Checked my mail today... last time I checked, thats not my name.
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/deathxom3n" class="author id-t2_4tqlp">
+       deathxom3n
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -4 points
+       </span>
+       <span class="score unvoted">
+        -3 points
+       </span>
+       <span class="score likes">
+        -2 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 19:55:28 2011 GMT" datetime="2011-11-03T19:55:28.020039-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -4 points
+        </span>
+        <span class="score unvoted">
+         -3 points
+        </span>
+        <span class="score likes">
+         -2 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 19:55:28 2011 GMT" datetime="2011-11-03T19:55:28.020039-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wx5204cn">
+        <input type="hidden" name="thing_id" value="t1_c2wx520" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 02:53:52 2404141 2853720911483709 14357809 1345709 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/c2wx520" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/c2wx520?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wx4vj even odd comment " data-fullname="t1_c2wx4vj" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wx4vj">
+      </a>
+      <a href="http://i.imgur.com/NfC1O.jpg" class="title" rel="nofollow">
+       Checked my mail today... last time I checked, thats not my name.
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/deathxom3n" class="author id-t2_4tqlp">
+       deathxom3n
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        0 points
+       </span>
+       <span class="score unvoted">
+        1 point
+       </span>
+       <span class="score likes">
+        2 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 19:54:52 2011 GMT" datetime="2011-11-03T19:54:52.573033-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         0 points
+        </span>
+        <span class="score unvoted">
+         1 point
+        </span>
+        <span class="score likes">
+         2 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 19:54:52 2011 GMT" datetime="2011-11-03T19:54:52.573033-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wx4vjuv6">
+        <input type="hidden" name="thing_id" value="t1_c2wx4vj" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 02:52:24 2404141 2213109853787091325 15348709 413279 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/c2wx4vj" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/c2wx4vj?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wx1pg even even comment " data-fullname="t1_c2wx1pg" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wx1pg">
+      </a>
+      <a href="http://imgur.com/2tafu" class="title" rel="nofollow">
+       ಠ_ಠ
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/Clownsfrown" class="author id-t2_4i53i">
+       Clownsfrown
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -50 points
+       </span>
+       <span class="score unvoted">
+        -49 points
+       </span>
+       <span class="score likes">
+        -48 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 19:45:00 2011 GMT" datetime="2011-11-03T19:45:00.696109-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -50 points
+        </span>
+        <span class="score unvoted">
+         -49 points
+        </span>
+        <span class="score likes">
+         -48 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 19:45:00 2011 GMT" datetime="2011-11-03T19:45:00.696109-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wx1pgg9u">
+        <input type="hidden" name="thing_id" value="t1_c2wx1pg" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 22:00:08 2404141 2112983057 53481709 48153709 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzi37/ಠ_ಠ/c2wx1pg" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzi37/ಠ_ಠ/c2wx1pg?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzi37/ಠ_ಠ/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wx1fl even odd comment " data-fullname="t1_c2wx1fl" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wx1fl">
+      </a>
+      <a href="http://imgur.com/YuEei" class="title" rel="nofollow">
+       There's at least one in every class...
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/ComedicChaos" class="author id-t2_4rrn5">
+       ComedicChaos
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -22 points
+       </span>
+       <span class="score unvoted">
+        -21 points
+       </span>
+       <span class="score likes">
+        -20 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 19:44:15 2011 GMT" datetime="2011-11-03T19:44:15.793813-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -22 points
+        </span>
+        <span class="score unvoted">
+         -21 points
+        </span>
+        <span class="score likes">
+         -20 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 19:44:15 2011 GMT" datetime="2011-11-03T19:44:15.793813-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wx1fljq5">
+        <input type="hidden" name="thing_id" value="t1_c2wx1fl" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 23:41:02 2404141 2135421530987 143985 14985 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzldo/theres_at_least_one_in_every_class/c2wx1fl" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzldo/theres_at_least_one_in_every_class/c2wx1fl?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzldo/theres_at_least_one_in_every_class/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wx13j even even comment " data-fullname="t1_c2wx13j" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wx13j">
+      </a>
+      <a href="http://i.imgur.com/NfC1O.jpg" class="title">
+       Checked my mail today... last time I checked, thats not my name.
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/deathxom3n" class="author id-t2_4tqlp">
+       deathxom3n
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        13 points
+       </span>
+       <span class="score unvoted">
+        14 points
+       </span>
+       <span class="score likes">
+        15 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 19:43:17 2011 GMT" datetime="2011-11-03T19:43:17.109353-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         13 points
+        </span>
+        <span class="score unvoted">
+         14 points
+        </span>
+        <span class="score likes">
+         15 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 19:43:17 2011 GMT" datetime="2011-11-03T19:43:17.109353-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wx13j24f">
+        <input type="hidden" name="thing_id" value="t1_c2wx13j" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 01:20:07 2404141 22435098 10345876 47815306 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/c2wx13j" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/c2wx13j?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzm8l/checked_my_mail_today_last_time_i_checked_thats/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wx0rg even odd comment " data-fullname="t1_c2wx0rg" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wx0rg">
+      </a>
+      <a href="http://imgur.com/MvURD" class="title" rel="nofollow">
+       I'm a little too proud of myself for this comment.
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/NikkPhaze" class="author id-t2_61au4">
+       NikkPhaze
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -6 points
+       </span>
+       <span class="score unvoted">
+        -5 points
+       </span>
+       <span class="score likes">
+        -4 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 19:42:11 2011 GMT" datetime="2011-11-03T19:42:11.448983-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -6 points
+        </span>
+        <span class="score unvoted">
+         -5 points
+        </span>
+        <span class="score likes">
+         -4 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 19:42:11 2011 GMT" datetime="2011-11-03T19:42:11.448983-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wx0rgid7">
+        <input type="hidden" name="thing_id" value="t1_c2wx0rg" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 23:25:18 2404141 22485370914853709 1530948 14853709 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzljh/im_a_little_too_proud_of_myself_for_this_comment/c2wx0rg" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzljh/im_a_little_too_proud_of_myself_for_this_comment/c2wx0rg?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzljh/im_a_little_too_proud_of_myself_for_this_comment/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2ww0kw even even comment " data-fullname="t1_c2ww0kw" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2ww0kw">
+      </a>
+      <a href="/r/A1B21F8244F/comments/lzof3/9988771123465/" class="title">
+       9988771123465
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+       A1B21F8244F
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/A1B21F8244F/" class="subreddit hover">
+       A1B21F8244F
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray submitter id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+        [
+        <a class="submitter" title="submitter" href="/r/A1B21F8244F/comments/lzof3/9988771123465/">
+         S
+        </a>
+        ]
+       </span>
+       &#32;
+       <span class="score dislikes">
+        4 points
+       </span>
+       <span class="score unvoted">
+        5 points
+       </span>
+       <span class="score likes">
+        6 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 17:52:08 2011 GMT" datetime="2011-11-03T17:52:08.303712-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author submitter id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+         [
+         <a class="submitter" title="submitter" href="/r/A1B21F8244F/comments/lzof3/9988771123465/">
+          S
+         </a>
+         ]
+        </span>
+        &#32;
+        <span class="score dislikes">
+         4 points
+        </span>
+        <span class="score unvoted">
+         5 points
+        </span>
+        <span class="score likes">
+         6 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 17:52:08 2011 GMT" datetime="2011-11-03T17:52:08.303712-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2ww0kwwy4">
+        <input type="hidden" name="thing_id" value="t1_c2ww0kw" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 00:47:38 24285709185794 14359871709485 948135879 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/c2ww0kw" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/c2ww0kw?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wvxga even odd comment " data-fullname="t1_c2wvxga" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wvxga">
+      </a>
+      <a href="/r/A1B21F8244F/comments/lzof3/9988771123465/" class="title" rel="nofollow">
+       9988771123465
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+       A1B21F8244F
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/A1B21F8244F/" class="subreddit hover">
+       A1B21F8244F
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray submitter id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+        [
+        <a class="submitter" title="submitter" href="/r/A1B21F8244F/comments/lzof3/9988771123465/">
+         S
+        </a>
+        ]
+       </span>
+       &#32;
+       <span class="score dislikes">
+        1 point
+       </span>
+       <span class="score unvoted">
+        2 points
+       </span>
+       <span class="score likes">
+        3 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 17:43:07 2011 GMT" datetime="2011-11-03T17:43:07.591993-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author submitter id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+         [
+         <a class="submitter" title="submitter" href="/r/A1B21F8244F/comments/lzof3/9988771123465/">
+          S
+         </a>
+         ]
+        </span>
+        &#32;
+        <span class="score dislikes">
+         1 point
+        </span>
+        <span class="score unvoted">
+         2 points
+        </span>
+        <span class="score likes">
+         3 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 17:43:07 2011 GMT" datetime="2011-11-03T17:43:07.591993-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wvxgak1f">
+        <input type="hidden" name="thing_id" value="t1_c2wvxga" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 00:38:58 2404141 22349857 42398578970 42598 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/c2wvxga" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/c2wvxga?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class=" thing id-t3_lzof3 even even link self" data-fullname="t3_lzof3" onclick="click_thing(this)">
+     <p class="parent">
+     </p>
+     <span class="rank" style="width:0px;display:none;">
+      24
+     </span>
+     <div class="midcol unvoted" style="width:3ex;">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="score dislikes">
+       15
+      </div>
+      <div class="score unvoted">
+       16
+      </div>
+      <div class="score likes">
+       17
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <p class="title">
+       <a class="title " href="/r/A1B21F8244F/comments/lzof3/9988771123465/">
+        9988771123465
+       </a>
+       &#32;
+       <span class="domain">
+        (
+        <a href="http://www.reddit.com/r/A1B21F8244F/">
+         self.A1B21F8244F
+        </a>
+        )
+       </span>
+      </p>
+      <div class="expando-button collapsed selftext" onclick="expando_child(this)">
+      </div>
+      <p class="tagline">
+       submitted&#32;
+       <time title="Thu Nov 3 17:33:59 2011 GMT" datetime="2011-11-03T17:33:59.661923-07:00">
+        15 days
+       </time>
+       &#32;ago&#32;by&#32;
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;to&#32;
+       <a href="http://www.reddit.com/r/A1B21F8244F/" class="subreddit hover">
+        A1B21F8244F
+       </a>
+       <script type="text/javascript">
+        reddit.sr['t3_lzof3'] = 't5_2sznu';
+       </script>
+      </p>
+      <ul class="flat-list buttons">
+       <li class="first">
+        <a class="comments" href="http://www.reddit.com/r/A1B21F8244F/comments/lzof3/9988771123465/" target="_parent">
+         17 comments
+        </a>
+       </li>
+       <li class="share">
+        <span class="share-button toggle" style="">
+         <a class="option active login-required" href="#" tabindex="100">
+          share
+         </a>
+         <a class="option " href="#">
+          cancel
+         </a>
+        </span>
+       </li>
+      </ul>
+      <div class="expando" style="display: none">
+       <span class="error">
+        loading...
+       </span>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+    <div class="thing id-t1_c2wv5wv even odd comment " data-fullname="t1_c2wv5wv" onclick="click_thing(this)">
+     <p class="parent">
+      <a name="c2wv5wv">
+      </a>
+      <a href="http://i.imgur.com/UsPGL.jpg" class="title" rel="nofollow">
+       Disturbing truth.
+      </a>
+      &#32; by &#32;
+      <a href="http://www.reddit.com/user/wettam" class="author id-t2_4zt00">
+       wettam
+      </a>
+      <span class="userattrs">
+      </span>
+      in &#32;
+      <a href="http://www.reddit.com/r/funny/" class="subreddit hover">
+       funny
+      </a>
+     </p>
+     <div class="midcol unvoted">
+      <div class="arrow up login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+      <div class="arrow down login-required" onclick="$(this).vote('&lt;$&gt;votehash&lt;/$&gt;', null, event)">
+       <$>votehash
+       ', null, event)" >
+      </div>
+     </div>
+     <div class="entry unvoted">
+      <div class="collapsed" style="display:none">
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        [+]
+       </a>
+       <a href="http://www.reddit.com/user/A1B21F8244F" class="author gray id-t2_61yhi">
+        A1B21F8244F
+       </a>
+       <span class="userattrs">
+       </span>
+       &#32;
+       <span class="score dislikes">
+        -3 points
+       </span>
+       <span class="score unvoted">
+        -2 points
+       </span>
+       <span class="score likes">
+        -1 points
+       </span>
+       &#32;
+       <time title="Thu Nov 3 16:24:51 2011 GMT" datetime="2011-11-03T16:24:51.942197-07:00">
+        15 days
+       </time>
+       &#32;ago &nbsp;
+       <a href="#" class="expand" onclick="return showcomment(this)">
+        (0 children)
+       </a>
+      </div>
+      <div class="noncollapsed">
+       <p class="tagline">
+        <a href="#" class="expand" onclick="return hidecomment(this)">
+         [&ndash;]
+        </a>
+        <a href="http://www.reddit.com/user/A1B21F8244F" class="author id-t2_61yhi">
+         A1B21F8244F
+        </a>
+        <span class="userattrs">
+        </span>
+        &#32;
+        <span class="score dislikes">
+         -3 points
+        </span>
+        <span class="score unvoted">
+         -2 points
+        </span>
+        <span class="score likes">
+         -1 points
+        </span>
+        &#32;
+        <time title="Thu Nov 3 16:24:51 2011 GMT" datetime="2011-11-03T16:24:51.942197-07:00">
+         15 days
+        </time>
+        &#32;ago
+       </p>
+       <form action="#" class="usertext" onsubmit="return post_form(this, 'editusertext')" id="form-t1_c2wv5wv4di">
+        <input type="hidden" name="thing_id" value="t1_c2wv5wv" />
+        <div class="usertext-body">
+         <div class="md">
+          <p>
+           <strong>
+            @ 21:35:41 2404141 24528097 24853709 4370162 4444
+           </strong>
+          </p>
+         </div>
+        </div>
+       </form>
+       <ul class="flat-list buttons">
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzd34/disturbing_truth/c2wv5wv" class="bylink" rel="nofollow">
+          permalink
+         </a>
+        </li>
+        <li>
+         <a href="http://www.reddit.com/r/funny/comments/lzd34/disturbing_truth/c2wv5wv?context=3" class="bylink" rel="nofollow">
+          context
+         </a>
+        </li>
+        <li class="first">
+         <a href="http://www.reddit.com/r/funny/comments/lzd34/disturbing_truth/" target="_parent">
+          full comments
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="child">
+     </div>
+     <div class="clearleft">
+      <!--IE6sux-->
+     </div>
+    </div>
+    <div class="clearleft">
+     <!--IE6sux-->
+    </div>
+   </div>
+   <p class="nextprev">
+    view more:&#32;
+    <a href="http://www.reddit.com/user/A1B21F8244F?count=25&amp;after=t1_c2wv5wv" rel="nofollow next">
+     next
+    </a>
+   </p>
+  </div>
+  <div class="footer-parent">
+   <div by-zero="by-zero" class="footer rounded">
+    <div class="col">
+     <ul class="flat-vert hover">
+      <li class="flat-vert title">
+       about
+      </li>
+      <li>
+       <a href="http://www.reddit.com/blog/">
+        blog
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/ad_inq/">
+        advertise
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/code/">
+        source code
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/feedback/">
+        contact us
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="col">
+     <ul class="flat-vert hover">
+      <li class="flat-vert title">
+       help
+      </li>
+      <li>
+       <a href="http://www.reddit.com/help/">
+        help
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/help/faq">
+        FAQ
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/help/reddiquette">
+        reddiquette
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/reddits/">
+        subreddits
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="col">
+     <ul class="flat-vert hover">
+      <li class="flat-vert title">
+       tools
+      </li>
+      <li>
+       <a href="http://i.reddit.com">
+        mobile
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/socialite/">
+        firefox extension
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="https://chrome.google.com/webstore/detail/algjnflpgoopkdijmkalfcifomdhmcbe">
+        chrome extension
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/buttons/">
+        buttons
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/widget/">
+        widget
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="col">
+     <ul class="flat-vert hover">
+      <li class="flat-vert title">
+       &lt;3
+      </li>
+      <li>
+       <a href="http://www.reddit.com/help/gold/" class="buygold">
+        reddit gold
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://www.reddit.com/store/">
+        store
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://redditgifts.com">
+        redditgifts
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://reddit.tv">
+        reddit.tv
+       </a>
+      </li>
+      <li>
+       <span class="separator">
+       </span>
+       <a href="http://radioreddit.com">
+        radio reddit
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <p class="bottommenu">
+    Use of this site constitutes acceptance of our&#32;
+    <a href="http://reddit.com/help/useragreement">
+     User Agreement
+    </a>
+    &#32;and&#32;
+    <a href="http://reddit.com/help/privacypolicy">
+     Privacy Policy
+    </a>
+    . &copy; 2011 reddit inc. All rights reserved.
+   </p>
+   <p class="bottommenu">
+    REDDIT and the ALIEN Logo are registered trademarks of reddit inc.
+   </p>
+   <p class="bottommenu serverinfo">
+    <span class="icon">
+     &pi;
+    </span>
+    &nbsp;
+    <span class="content">
+     Rendered by PID 10858 on app-48 running 0c33ed8.
+    </span>
+   </p>
+  </div>
+  <div class="login-popup cover-overlay" style="display: none">
+   <div class="cover" onclick="return hidecover(this)">
+   </div>
+   <div class="popup">
+    <h1 class="cover-msg">
+     you'll need to login or register to do that
+    </h1>
+    <div class="login-form-section divide">
+     <h3>
+      create a new account
+     </h3>
+     <p class="tagline">
+      all it takes is a username and password
+     </p>
+     <form id="login_reg" method="post" action="https://ssl.reddit.com/post/reg" class="user-form register-form">
+      <input type="hidden" name="op" value="reg" />
+      <div>
+       <ul>
+        <li>
+         <label for="user_reg">
+          username:
+         </label>
+         <input value="" name="user" id="user_reg" type="text" maxlength="20" tabindex="3" />
+         <span class="error BAD_USERNAME field-user" style="display:none">
+         </span>
+         <span class="error USERNAME_TAKEN field-user" style="display:none">
+         </span>
+         <span class="error USERNAME_TAKEN_DEL field-user" style="display:none">
+         </span>
+        </li>
+        <li>
+         <label for="email_reg">
+          email: &nbsp;
+          <i>
+           (optional)
+          </i>
+         </label>
+         <input value="" name="email" id="email_reg" type="text" maxlength="50" tabindex="3" />
+         <span class="error BAD_EMAILS field-email" style="display:none">
+         </span>
+        </li>
+        <li>
+         <label for="passwd_reg">
+          password:
+         </label>
+         <input id="passwd_reg" name="passwd" type="password" tabindex="3" />
+         <span class="error BAD_PASSWORD field-passwd" style="display:none">
+         </span>
+        </li>
+        <li>
+         <label for="passwd2_reg">
+          verify password:
+         </label>
+         <input name="passwd2" id="passwd2_reg" type="password" tabindex="3" />
+         <span class="error BAD_PASSWORD_MATCH field-passwd2" style="display:none">
+         </span>
+        </li>
+        <li>
+         <table>
+          <tr>
+           <td>
+           </td>
+           <td>
+            <input name="iden" value="" type="hidden" />
+            <img class="capimage" alt="i wonder if these things even work" src="http://www.redditstatic.com/kill.png" />
+           </td>
+          </tr>
+          <tr>
+           <td align="right">
+           </td>
+           <td>
+            <input class="captcha cap-text" id="captcha_" name="captcha" type="text" size="30" placeholder="type the letters from the image above" tabindex="3" />
+           </td>
+           <td>
+            <span class="error BAD_CAPTCHA field-captcha" style="display:none">
+            </span>
+           </td>
+          </tr>
+         </table>
+         <span class="error RATELIMIT field-ratelimit" style="display:none">
+         </span>
+         <span class="error RATELIMIT field-vdelay" style="display:none">
+         </span>
+        </li>
+        <li>
+         <input type="checkbox" name="rem" id="rem_reg" tabindex="3" />
+         <label for="rem_reg" class="remember">
+          remember me
+         </label>
+        </li>
+       </ul>
+       <p class="submit">
+        <button type="submit" class="button" tabindex="3">
+         create account
+        </button>
+        <span class="throbber">
+        </span>
+        <span class="status">
+        </span>
+       </p>
+      </div>
+     </form>
+     <p>
+      <span class="orangered">
+       is it really that easy? only one way to find out...
+      </span>
+     </p>
+    </div>
+    <div class="login-form-section">
+     <h3>
+      login
+     </h3>
+     <p class="tagline">
+      already have an account and just want to login?
+     </p>
+     <form id="login_login" method="post" action="https://ssl.reddit.com/post/login" class="user-form login-form">
+      <input type="hidden" name="op" value="login" />
+      <div>
+       <ul>
+        <li>
+         <label for="user_login">
+          username:
+         </label>
+         <input value="" name="user" id="user_login" type="text" maxlength="20" tabindex="2" />
+        </li>
+        <li>
+         <label for="passwd_login">
+          password:
+         </label>
+         <input id="passwd_login" name="passwd" type="password" tabindex="2" />
+         <span class="error WRONG_PASSWORD field-passwd" style="display:none">
+         </span>
+        </li>
+        <li>
+         <input type="checkbox" name="rem" id="rem_login" tabindex="2" />
+         <label for="rem_login" class="remember">
+          remember me
+         </label>
+        </li>
+        <li>
+         <a class="recover-password" href="/password">
+          recover password
+         </a>
+        </li>
+       </ul>
+       <p class="submit">
+        <button type="submit" class="button" tabindex="2">
+         login
+        </button>
+        <span class="throbber">
+        </span>
+        <span class="status">
+        </span>
+       </p>
+      </div>
+     </form>
+    </div>
+    <div class="clear">
+    </div>
+    <div class="close-popup">
+     <a href="#" onclick="return hidecover(this)">
+      close this window
+     </a>
+    </div>
+   </div>
+  </div>
+  <div class="lang-popup cover-overlay" style="display: none">
+   <div class="cover" onclick="return hidecover(this)">
+   </div>
+   <div class="popup">
+    <form action="http://www.reddit.com/post/unlogged_options" method="post" class="pretty-form short-text">
+     <input type="hidden" name="uh" value="" />
+     <table class="content preftable">
+      <tr>
+       <th>
+        interface language
+       </th>
+       <td class="prefright">
+        <select id="lang" name="lang">
+         <option selected="selected" value="en">
+          English [en]
+         </option>
+         <option value="ar">
+          العربية [ar]
+         </option>
+         <option value="bg">
+          български език [bg]
+         </option>
+         <option value="ca">
+          català [ca]
+         </option>
+         <option value="cs">
+          česky [cs]
+         </option>
+         <option value="da">
+          dansk [da]
+         </option>
+         <option value="de">
+          Deutsch [de]
+         </option>
+         <option value="el">
+          Ελληνικά [el]
+         </option>
+         <option value="en-au">
+          English (Australia) [en-au]
+         </option>
+         <option value="en-ca">
+          English (Canadian) [en-ca]
+         </option>
+         <option value="en-gb">
+          English (Great Britain) [en-gb]
+         </option>
+         <option value="en-us">
+          English (United States) [en-us]
+         </option>
+         <option value="eo">
+          Esperanto [eo]
+         </option>
+         <option value="es">
+          español [es]
+         </option>
+         <option value="es-ar">
+          español [es-ar]
+         </option>
+         <option value="et">
+          eesti keel [et]
+         </option>
+         <option value="fa">
+          فارسی [fa]
+         </option>
+         <option value="fi">
+          suomi [fi]
+         </option>
+         <option value="fr">
+          français [fr]
+         </option>
+         <option value="he">
+          עברית [he]
+         </option>
+         <option value="hr">
+          hrvatski jezik [hr]
+         </option>
+         <option value="hu">
+          Magyar [hu]
+         </option>
+         <option value="id">
+          Bahasa Indonesia [id]
+         </option>
+         <option value="is">
+          íslenska [is]
+         </option>
+         <option value="it">
+          italiano [it]
+         </option>
+         <option value="ja">
+          日本語 [ja]
+         </option>
+         <option value="ko">
+          한국어 [ko]
+         </option>
+         <option value="leet">
+          1337 [leet]
+         </option>
+         <option value="lol">
+          LOL [lol]
+         </option>
+         <option value="lt">
+          lietuvių kalba [lt]
+         </option>
+         <option value="nl">
+          Nederlands [nl]
+         </option>
+         <option value="no">
+          Norsk [no]
+         </option>
+         <option value="pir">
+          Arrrrrrrr! [pir]
+         </option>
+         <option value="pl">
+          polski [pl]
+         </option>
+         <option value="pt">
+          português [pt]
+         </option>
+         <option value="pt-pt">
+          português [pt-pt]
+         </option>
+         <option value="ro">
+          română [ro]
+         </option>
+         <option value="ru">
+          русский [ru]
+         </option>
+         <option value="sk">
+          slovenčina [sk]
+         </option>
+         <option value="sr">
+          српски језик [sr]
+         </option>
+         <option value="sr-la">
+          Srpski [sr-la]
+         </option>
+         <option value="sv">
+          Svenska [sv]
+         </option>
+         <option value="ta">
+          தமிழ் [ta]
+         </option>
+         <option value="tr">
+          Türkçe [tr]
+         </option>
+         <option value="uk">
+          українська мова [uk]
+         </option>
+         <option value="zh">
+          中文 [zh]
+         </option>
+        </select>
+        &#32;
+        <span class="little gray hover">
+         (*) incomplete &#32;
+         <a href="http://www.reddit.com/i18n">
+          volunteer to translate
+         </a>
+        </span>
+       </td>
+      </tr>
+      <tr>
+       <th>
+        content language
+       </th>
+       <td class="prefright">
+        <input type="radio" name="all-langs" id="all-langs" value="all" onclick="clear_all_langs(this)" checked="checked" />
+        <label for="all-langs">
+         all languages
+        </label>
+        <br />
+        <input type="radio" name="all-langs" id="some-langs" value="some" />
+        <label for="some-langs">
+         some languages
+        </label>
+        <hr />
+        <table>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ar" id="lang-ar" onclick="check_some_langs(this)" />
+           <label for="lang-ar">
+            العربية
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-he" id="lang-he" onclick="check_some_langs(this)" />
+           <label for="lang-he">
+            עברית
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-pt" id="lang-pt" onclick="check_some_langs(this)" />
+           <label for="lang-pt">
+            português
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-be" id="lang-be" onclick="check_some_langs(this)" />
+           <label for="lang-be">
+            Беларуская мова
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-hr" id="lang-hr" onclick="check_some_langs(this)" />
+           <label for="lang-hr">
+            hrvatski jezik
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ro" id="lang-ro" onclick="check_some_langs(this)" />
+           <label for="lang-ro">
+            română
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-bg" id="lang-bg" onclick="check_some_langs(this)" />
+           <label for="lang-bg">
+            български език
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-hu" id="lang-hu" onclick="check_some_langs(this)" />
+           <label for="lang-hu">
+            Magyar
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ru" id="lang-ru" onclick="check_some_langs(this)" />
+           <label for="lang-ru">
+            русский
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ca" id="lang-ca" onclick="check_some_langs(this)" />
+           <label for="lang-ca">
+            català
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-hy" id="lang-hy" onclick="check_some_langs(this)" />
+           <label for="lang-hy">
+            Հայերեն լեզու
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-sk" id="lang-sk" onclick="check_some_langs(this)" />
+           <label for="lang-sk">
+            slovenčina
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-cs" id="lang-cs" onclick="check_some_langs(this)" />
+           <label for="lang-cs">
+            česky
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-id" id="lang-id" onclick="check_some_langs(this)" />
+           <label for="lang-id">
+            Bahasa Indonesia
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-sl" id="lang-sl" onclick="check_some_langs(this)" />
+           <label for="lang-sl">
+            slovenščina
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-da" id="lang-da" onclick="check_some_langs(this)" />
+           <label for="lang-da">
+            dansk
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-is" id="lang-is" onclick="check_some_langs(this)" />
+           <label for="lang-is">
+            íslenska
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-sr" id="lang-sr" onclick="check_some_langs(this)" />
+           <label for="lang-sr">
+            српски језик
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-de" id="lang-de" onclick="check_some_langs(this)" />
+           <label for="lang-de">
+            Deutsch
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-it" id="lang-it" onclick="check_some_langs(this)" />
+           <label for="lang-it">
+            italiano
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-sv" id="lang-sv" onclick="check_some_langs(this)" />
+           <label for="lang-sv">
+            Svenska
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-el" id="lang-el" onclick="check_some_langs(this)" />
+           <label for="lang-el">
+            Ελληνικά
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ja" id="lang-ja" onclick="check_some_langs(this)" />
+           <label for="lang-ja">
+            日本語
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ta" id="lang-ta" onclick="check_some_langs(this)" />
+           <label for="lang-ta">
+            தமிழ்
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-en" id="lang-en" onclick="check_some_langs(this)" />
+           <label for="lang-en">
+            English
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-ko" id="lang-ko" onclick="check_some_langs(this)" />
+           <label for="lang-ko">
+            한국어
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-th" id="lang-th" onclick="check_some_langs(this)" />
+           <label for="lang-th">
+            ภาษาไทย
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-eo" id="lang-eo" onclick="check_some_langs(this)" />
+           <label for="lang-eo">
+            Esperanto
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-la" id="lang-la" onclick="check_some_langs(this)" />
+           <label for="lang-la">
+            Latin
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-tr" id="lang-tr" onclick="check_some_langs(this)" />
+           <label for="lang-tr">
+            Türkçe
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-es" id="lang-es" onclick="check_some_langs(this)" />
+           <label for="lang-es">
+            español
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-lt" id="lang-lt" onclick="check_some_langs(this)" />
+           <label for="lang-lt">
+            lietuvių kalba
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-uk" id="lang-uk" onclick="check_some_langs(this)" />
+           <label for="lang-uk">
+            українська мова
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-et" id="lang-et" onclick="check_some_langs(this)" />
+           <label for="lang-et">
+            eesti keel
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-lv" id="lang-lv" onclick="check_some_langs(this)" />
+           <label for="lang-lv">
+            latviešu valoda
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-vi" id="lang-vi" onclick="check_some_langs(this)" />
+           <label for="lang-vi">
+            Tiếng Việt
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-fa" id="lang-fa" onclick="check_some_langs(this)" />
+           <label for="lang-fa">
+            فارسی
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-nl" id="lang-nl" onclick="check_some_langs(this)" />
+           <label for="lang-nl">
+            Nederlands
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-zh" id="lang-zh" onclick="check_some_langs(this)" />
+           <label for="lang-zh">
+            中文
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-fi" id="lang-fi" onclick="check_some_langs(this)" />
+           <label for="lang-fi">
+            suomi
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-no" id="lang-no" onclick="check_some_langs(this)" />
+           <label for="lang-no">
+            Norsk
+           </label>
+          </td>
+         </tr>
+         <tr>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-fr" id="lang-fr" onclick="check_some_langs(this)" />
+           <label for="lang-fr">
+            français
+           </label>
+          </td>
+          <td style="padding-right: 15px; white-space: nowrap;">
+           <input type="checkbox" name="lang-pl" id="lang-pl" onclick="check_some_langs(this)" />
+           <label for="lang-pl">
+            polski
+           </label>
+          </td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <input type="submit" class="btn" value="save options" />
+       </td>
+      </tr>
+     </table>
+    </form>
+    <div style="text-align:center; clear:both;">
+     <a href="#" onclick="return hidecover(this)">
+      close this window
+     </a>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
