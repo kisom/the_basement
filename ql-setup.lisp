@@ -2,7 +2,7 @@
 
 (defparameter *base-packages*
   '( "drakma" "cxml" "cl-ppcre" "cl-oauth" "cl-postgres" "cl-twitter"
-     "cl-json" "cl-mongo" "logv" ))
+     "cl-json" "cl-mongo" "logv" "cl-oauth"))
 
 (load "~/src/quicklisp/quicklisp.lisp")
 
