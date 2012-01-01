@@ -2,8 +2,6 @@
 ;;;;  kyle isom <kyle@nodality.io>
 ;;;;  code examples from rosetta code and the cl-json page
 ;;;;  this is an attempt to pull the twitter timeline and parse it into a list
-;;;;
-;;;; currently it doesn't work, my lisp fu is still weak
 
 ;; use this if you have Quicklisp (and you should)
 (load #P"/Users/kyle/quicklisp/setup.lisp") ; need to find a better way to do this
