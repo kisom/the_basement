@@ -1,0 +1,37 @@
+<straylight: ~/Code/the_basement/lisp> λsbcl --script timeline.lisp 
+To load "drakma":
+  Load 1 ASDF system:
+    drakma
+; Loading "drakma"
+....
+To load "cl-json":
+  Load 1 ASDF system:
+    cl-json
+; Loading "cl-json"
+
+To load "babel":
+  Load 1 ASDF system:
+    babel
+; Loading "babel"
+
+saw user Teresa Millana (140 chars)
+saw user kimmie james (30 chars)
+saw user Moana Coast (96 chars)
+saw user 愛
+ (20 chars)
+saw user 田良尾佳乃子 (40 chars)
+saw user Gustavo Carrillo (116 chars)
+saw user Shannon Dillon (45 chars)
+saw user Dayries Donald (71 chars)
+saw user Silvia Yunica (실비아) (65 chars)
+saw user \m/ JANET \m/ (107 chars)
+saw user NoOther SuperJuni~OR (135 chars)
+saw user 早乙女玄馬 (28 chars)
+saw user Ｇ郎@みりんやき(2日目西2お35a) (15 chars)
+saw user Lady Mandarina (48 chars)
+saw user Khalan Slade (29 chars)
+saw user Lauren Ziegler (25 chars)
+saw user Natassa Foo (50 chars)
+saw user Bryant Westerman (48 chars)
+saw user King Seven (139 chars)
+<straylight: ~/Code/the_basement/lisp> λ 
