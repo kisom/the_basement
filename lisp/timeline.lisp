@@ -12,30 +12,23 @@
 
 (ql:quickload "drakma")
 (ql:quickload "cl-json")
+(ql:quickload "babel")
 
 (require 'drakma)
 (require 'cl-json)
+(require 'babel)
+
+(json:set-decoder-simple-list-semantics)
 
 (defparameter *public-timeline-url* 
   "http://api.twitter.com/1/statuses/public_timeline.json")
 
- 
-(defun wget-drakma-string (url &optional (out *standard-output*))
-  "Grab the body as a string, and write it to out."
-  (write-string (drakma:http-request url) out))
- 
-(defun wget-drakma-stream (url &optional (out *standard-output*))
-  "Grab the body as a stream, and write it to out."
-  (loop with body = (drakma:http-request url :want-stream t)
-        for line = (read-line body nil nil)
-        while line do (write-line line)
-        finally (close body)))
-
 (defun get-public-timeline ()
-  (let ((timeline (wget-drakma-stream *public-timeline-url*)))
-    (write-string json:decode-json timeline)))
-
-
-(get-public-timeline)
-
+  "grab the twitter public timeline."
+  (let ((tl-stream (drakma:http-request *public-timeline-url*
+					 :want-stream nil)))
+    (with-input-from-string (tl-string (babel:octets-to-string tl-stream
+							       :encoding
+							       :utf-8))
+			    (json:decode-json tl-string))))
 
