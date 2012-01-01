@@ -6,7 +6,7 @@
 ;;;; currently it doesn't work, my lisp fu is still weak
 
 ;; use this if you have Quicklisp (and you should)
-(load #P"/Users/kyle/quicklisp/setup.lisp")
+(load #P"/Users/kyle/quicklisp/setup.lisp") ; need to find a better way to do this
 (ql:quickload "drakma")
 (ql:quickload "cl-json")
 (ql:quickload "babel")
@@ -46,9 +46,8 @@
 the message."
   (dolist (twit timeline)
     (let ((name (get-username twit))
+	  (user (get-value :screen--name (get-value :user twit)))
 	  (post (get-value :text twit)))
-      (format t "saw user ~A (~A chars)~%" name (length post)))))
+      (format t "twit from @~A (~A) who wrote ~A chars~%" 
+	      user name (length post)))))
 
-
-;; let her rip
-(timeline-overview (get-public-timeline))
