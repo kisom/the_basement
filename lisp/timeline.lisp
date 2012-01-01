@@ -4,10 +4,11 @@
 ;;;;  this is an attempt to pull the twitter timeline and parse it into a list
 
 ;; use this if you have Quicklisp (and you should)
-(load #P"/Users/kyle/quicklisp/setup.lisp") ; need to find a better way to do this
-(ql:quickload "drakma")
-(ql:quickload "cl-json")
-(ql:quickload "babel")
+;; uncomment if you aren't using the custom sbcl image
+;(load #P"~/quicklisp/setup.lisp") ; need to find a better way to do this
+;(ql:quickload "drakma")
+;(ql:quickload "cl-json")
+;(ql:quickload "babel")
 
 ;; use this if you have the libraries installed elsewhere (i.e. via
 ;; ASDF), this has worked on some of my systems.
@@ -48,4 +49,12 @@ the message."
 	  (post (get-value :text twit)))
       (format t "twit from @~A (~A) who wrote ~A chars~%" 
 	      user name (length post)))))
+
+(defun show-updates (timeline)
+  "Show a list of status updates."
+  (dolist (twit timeline)
+    (let ((name (get-value :screen--name (get-value :user twit)))
+	  (time (get-value :created--at twit))
+	  (text (get-value :text twit)))
+      (format t "~A @~A: ~A~%" time name text))))
 
