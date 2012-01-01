@@ -1,4 +1,50 @@
-<straylight: ~/Code/the_basement/lisp> λsbcl --script timeline.lisp 
+<straylight: ~/Code/the_basement/lisp> λ sbcl
+This is SBCL 1.0.53, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (load "timeline.lisp")
+To load "drakma":
+  Load 1 ASDF system:
+    drakma
+; Loading "drakma"
+....
+To load "cl-json":
+  Load 1 ASDF system:
+    cl-json
+; Loading "cl-json"
+
+To load "babel":
+  Load 1 ASDF system:
+    babel
+; Loading "babel"
+
+* (describe #'get-public-timeline)
+
+#<FUNCTION GET-PUBLIC-TIMELINE>
+  [compiled function]
+
+Lambda-list: ()
+Derived type: (FUNCTION NIL *)
+Documentation:
+  Grab the twitter public timeline.
+Source file: /Users/kyle/Code/the_basement/lisp/timeline.lisp
+* (describe #'timeline-overview)
+
+#<FUNCTION TIMELINE-OVERVIEW>
+  [compiled function]
+
+Lambda-list: (TIMELINE)
+Derived type: (FUNCTION (T) (VALUES NULL &OPTIONAL))
+Documentation:
+  Run through a timeline of posts and show users and the number of characters in
+  the message.
+Source file: /Users/kyle/Code/the_basement/lisp/timeline.lisp
+* (quit)
+<straylight: ~/Code/the_basement/lisp> λ sbcl --script timeline.lisp 
 To load "drakma":
   Load 1 ASDF system:
     drakma
