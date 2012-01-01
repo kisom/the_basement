@@ -1,0 +1,17 @@
+<straylight: ~/Code/the_basement/lisp> λ time ./sbcl-twitter --script show-timeline.lisp > /dev/null
+./sbcl-twitter --script show-timeline.lisp > /dev/null  3.87s user 0.57s system 65% cpu 6.755 total
+
+<straylight: ~/Code/the_basement/lisp> λ time sbcl --script show-timeline.lisp > /dev/null
+sbcl --script show-timeline.lisp > /dev/null  6.76s user 1.04s system 82% cpu 9.502 total
+
+sbcl-twitter is an custom sbcl executable image. for performance, i
+tweaked the code a bit: with the new core, I skipped the calls to 
+ql:quickload because those libraries are already present (the image
+has drakma, cl-json, and flex-streams pre-loaded). It was created
+with the following:
+
+; note that I have quicklisp autoloaded in my .sbclrc
+(ql:quickload "drakma")
+(ql:quickload "cl-json")
+(ql:quickload "flexi-streams")
+(sb-ext:save-lisp-and-die "sbcl-twitter" :executable t)
