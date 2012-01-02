@@ -9,3 +9,4 @@ python/causes
 os
 .*.swp
 .irclogdrc
+*.pyc
