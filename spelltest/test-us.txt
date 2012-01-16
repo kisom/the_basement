@@ -1,0 +1,2 @@
+This is a test of American English, which shouldn't worry about color
+but which should find colour quite appalling.

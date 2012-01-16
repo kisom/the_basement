@@ -1,0 +1,4 @@
+The spell check program should find nothing wrong with this file.
+
+I don't see anything wrong with it. Do you?
+

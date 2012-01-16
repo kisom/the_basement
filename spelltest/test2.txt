@@ -1,0 +1,9 @@
+Hey, I found a mispelt word!
+
+Obviously, I can't tell the diference between there, their, and they're
+but nobody is perfect, I guess.
+
+We also need to make sure proper nouns like English are recognised while
+words like english are not, because that should be capitalised. Also,
+an acronym like RCA *might* be okay, whereas rca might not and rCA most
+definitely should not
