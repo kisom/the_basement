@@ -2,7 +2,7 @@
  * srm.c                                                                *
  * author: kyle isom <coder@kyleisom.net>                               *
  * license: isc / public domain dual-licensed                           *
- * date: 2011-08-03                                                     *
+ * date: 2011-09-03                                                     *
  *                                                                      *
  * securely remove a file                                               *
  * powered by radiohead - ok computer                                   *
@@ -13,7 +13,7 @@
  * TODO: add recursive removal for securely removing a directory        *
  ************************************************************************/
 /*
- * Copyright (c) 2011 KYLE ISOM <coder@kyleisom.net>
+ * Copyright (c) 2011 Kyle Isom <coder@kyleisom.net>
  *
  * Permission to use, copy, modify, and distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -48,7 +48,7 @@
 static int         do_wipe(char *, size_t);
 static int         wipe(char *);
 #ifdef OPENBSD
-__dead void usage(void);
+__dead void        usage(void);
 #else
 static void        usage(void);
 #endif
@@ -235,7 +235,7 @@ wipe(char *filename)
      * for security purposes, we want to make sure to actually overwrite the
      * the file. r+ gives us read/write but more importantly, sets the write
      * stream at the beginning of the file. a side note is that when overwriting
-     * a file, it's size will never seem to change.
+     * a file, its size will never seem to change.
      */
     target   = fopen(filename, "r+");
     if (NULL == target) {
