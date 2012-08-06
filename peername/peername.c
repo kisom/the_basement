@@ -21,6 +21,7 @@ typedef struct sockaddr_in6 in6addr;
 extern char     *__progname;
 
 inaddr      *load_in(char *, uint16_t);
+in6addr     *load_in6(char *, uint16_t);
 void         showpeer(struct sockaddr *, int);
 void         reverse_lookup(struct sockaddr *, int);
 void         fatal(char *, void *, int, int);
@@ -79,8 +80,7 @@ main(int argc, char **argv)
     if (AF_INET == family)
         addr = (struct sockaddr *)load_in(argv[0], port);
     else if (AF_INET6 == family) {
-        warnx("ipv6 not supported yet.");
-        exit(EX_UNAVAILABLE);
+        addr = (struct sockaddr *)load_in6(argv[0], port);
     }
 
     printf("[+] attempting to connect...\n");
@@ -95,7 +95,7 @@ main(int argc, char **argv)
     if (AF_INET == family)
         slen = sizeof((inaddr *)addr);
     else if (AF_INET6 == family)
-        slen = sizeof((in6addr *)addr)->sin6_len;
+        slen = sizeof((in6addr *)addr);
 
     peer = calloc(1, sizeof(struct sockaddr));
     if (NULL == peer)
@@ -133,9 +133,8 @@ load_in(char *hostname, uint16_t port)
         err(EX_OSERR, "calloc");
 
     printf("[+] translating host->ip\n");
-    if ((host = gethostbyname(hostname)) == NULL) {
+    if ((host = gethostbyname(hostname)) == NULL)
         err(EX_OSERR, "gethostbyname");
-    }
 
     printf("[+] initialising address structure...\n");
 
@@ -148,6 +147,41 @@ load_in(char *hostname, uint16_t port)
     return sa;
 }
 
+
+/*
+ * load an ipv6 address for the hostname
+ */
+in6addr *
+load_in6(char *hostname, uint16_t port)
+{
+    struct addrinfo hints, *res, *cur;
+    in6addr *sa;
+    
+    printf("[+] setting up ipv6 address\n");
+    sa = calloc(1, sizeof(in6addr));
+    if (NULL == sa)
+        err(EX_OSERR, "calloc");
+
+    printf("[+] looking up host->ip\n");
+    memset(&hints, 0, sizeof(hints));
+    hints.ai_family = AF_INET6;
+    hints.ai_socktype = SOCK_STREAM;
+    if (-1 == getaddrinfo(hostname, NULL, &hints, &res))
+        err(EX_OSERR, "getaddrinfo");
+
+    printf("[+] initialising address structure...\n");
+    for(cur = res; cur; cur = cur->ai_next) {
+        if (cur->ai_socktype != AF_INET6)
+            continue;
+        bcopy(res->ai_addr, &sa->sin6_addr, res->ai_addrlen);
+        sa->sin6_port = htons(port);
+        sa->sin6_family = AF_INET6;
+        break;
+    }
+
+    printf("[+] ipv6 address set up\n");
+    return sa;
+}
 
 /*
  * print the peer address and port
